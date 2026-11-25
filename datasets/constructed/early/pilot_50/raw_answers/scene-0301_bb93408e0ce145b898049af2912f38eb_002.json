@@ -1,0 +1,19 @@
+{
+  "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_002",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中目标车辆的密集白点轮廓主要贴近橙框左侧边界，框右侧留有较大空余；以车头朝上、左侧为车体左侧，当前框相对点云偏右。",
+    "camera_evidence": [
+      {
+        "view": "CAM_FRONT_RIGHT",
+        "observation": "橙框投影覆盖右前方可见的深色 SUV 前部，车辆仅部分进入画面。"
+      },
+      {
+        "view": "CAM_BACK_RIGHT",
+        "observation": "橙框投影覆盖右侧深色 SUV 的侧面，可辨认车轮、车窗和车身轮廓。"
+      }
+    ],
+    "summary": "BEV 中车辆白点集中在框的左侧，表明框相对车体偏右。",
+    "action": "LEFT"
+  }
+}

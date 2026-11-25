@@ -1,0 +1,15 @@
+{
+  "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_005",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中橙框右边缘附近有一列纵向白点，位于框内及边缘；左侧可见少量白点，但目标另一侧轮廓不完整，难以判断横向中心偏差。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "橙框投影覆盖路边深色车辆区域，但与相邻车辆及遮挡重叠，无法清楚辨认目标车体两侧轮廓。"
+      }
+    ],
+    "summary": "LiDAR 目标轮廓不完整，后向相机投影又与相邻车辆重叠，无法可靠判断横向调整方向。",
+    "action": "ABSTAIN"
+  }
+}

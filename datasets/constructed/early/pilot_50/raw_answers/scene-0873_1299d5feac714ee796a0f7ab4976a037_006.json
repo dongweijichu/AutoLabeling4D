@@ -1,0 +1,15 @@
+{
+  "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_006",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中白点主要集中在橙框前端内侧，横向分布大致居中；少量点靠近左边缘，点迹稀疏，无法可靠确定车体两侧轮廓。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "橙框投影覆盖后方一辆亮灯车辆的部分区域，但车辆被前景车辆遮挡，车体两侧轮廓难以完整辨认。"
+      }
+    ],
+    "summary": "BEV 点迹不足以确定横向中心，CAM_BACK 中目标车体又被遮挡，无法可靠判断调整方向。",
+    "action": "ABSTAIN"
+  }
+}

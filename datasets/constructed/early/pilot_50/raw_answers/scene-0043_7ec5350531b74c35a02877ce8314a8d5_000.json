@@ -1,0 +1,15 @@
+{
+  "id": "scene-0043_7ec5350531b74c35a02877ce8314a8d5_000",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中目标近端的白点轮廓大致从框内左侧延伸到框右侧之外，右侧有少量白点落在框外；轮廓中心相对当前框略偏右。",
+    "camera_evidence": [
+      {
+        "view": "CAM_FRONT",
+        "observation": "橙框内可辨认出前方深色车辆的车尾；车辆轮廓受遮挡和画面分辨率限制，横向边缘不够清晰。"
+      }
+    ],
+    "summary": "BEV 近端白点轮廓相对框略偏右，但相机画面不足以确认偏移量。",
+    "action": "ABSTAIN"
+  }
+}

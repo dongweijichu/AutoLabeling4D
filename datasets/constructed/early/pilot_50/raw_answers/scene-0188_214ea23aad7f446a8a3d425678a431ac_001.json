@@ -1,0 +1,15 @@
+{
+  "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_001",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "框内可见的车辆轮廓白点主要沿框的右侧分布，右侧白点紧邻框边；相对框中心，轮廓偏右。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK_LEFT",
+        "observation": "橙框投影覆盖白色车辆及其附近区域；车辆前部和右侧轮廓可辨，但投影包含重叠线条，难以单凭画面确定横向偏移。"
+      }
+    ],
+    "summary": "BEV 中可辨轮廓主要贴近框的右侧，建议将框向车体右侧移动。",
+    "action": "RIGHT"
+  }
+}

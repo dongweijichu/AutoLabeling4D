@@ -1,0 +1,15 @@
+{
+  "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_001",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中目标白点主要位于橙框内部，左右两侧的可辨认轮廓与框边界没有显示出可靠的横向偏移；点云稀疏，难以判断是否处于 0.10 米容差内。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK_LEFT",
+        "observation": "橙框覆盖停车区域内的深色车辆，但与相邻车辆的轮廓重叠，难以可靠判断目标车体相对框的横向位置。"
+      }
+    ],
+    "summary": "BEV 点云稀疏，CAM_BACK_LEFT 中相邻车辆轮廓重叠，无法可靠判断横向偏移。",
+    "action": "ABSTAIN"
+  }
+}

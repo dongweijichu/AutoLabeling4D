@@ -1,0 +1,90 @@
+{
+  "synthetic_20": {
+    "splits": {
+      "train": {
+        "scenes": 20,
+        "examples": 60,
+        "actions": {
+          "RIGHT": 20,
+          "STOP": 20,
+          "LEFT": 20
+        }
+      },
+      "dev": {
+        "scenes": 5,
+        "examples": 15,
+        "actions": {
+          "RIGHT": 5,
+          "STOP": 5,
+          "LEFT": 5
+        }
+      },
+      "test": {
+        "scenes": 5,
+        "examples": 15,
+        "actions": {
+          "RIGHT": 5,
+          "STOP": 5,
+          "LEFT": 5
+        }
+      }
+    },
+    "png_files": 90
+  },
+  "synthetic_200": {
+    "splits": {
+      "train": {
+        "scenes": 200,
+        "examples": 600,
+        "actions": {
+          "RIGHT": 200,
+          "STOP": 200,
+          "LEFT": 200
+        }
+      },
+      "dev": {
+        "scenes": 5,
+        "examples": 15,
+        "actions": {
+          "RIGHT": 5,
+          "STOP": 5,
+          "LEFT": 5
+        }
+      },
+      "test": {
+        "scenes": 5,
+        "examples": 15,
+        "actions": {
+          "RIGHT": 5,
+          "STOP": 5,
+          "LEFT": 5
+        }
+      }
+    },
+    "png_files": 630
+  },
+  "pilot_50": {
+    "train_candidates": 50,
+    "dev_candidates": 33,
+    "official_split": "nuScenes v1.0-trainval, official train; scene-disjoint internal train and dev",
+    "train_scenes": 12,
+    "dev_scenes": 9,
+    "jpeg_files": 581,
+    "raw_answers": 50,
+    "accepted_sft": 11,
+    "accepted_actions": {
+      "STOP": 11
+    },
+    "reference_train": {
+      "STOP": 35,
+      "LEFT": 12,
+      "RIGHT": 3
+    },
+    "rejected_reasons": {
+      "geometry_disagreement": 13,
+      "abstain": 26
+    },
+    "step_m": 0.2,
+    "stop_tolerance_m": 0.1
+  }
+}

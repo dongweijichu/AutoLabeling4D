@@ -1,0 +1,19 @@
+{
+  "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_004",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中橙框左边界约在 x=203–207，右边界约在 x=274–277；目标两侧的白点较稀疏，右侧白点接近右边界，左侧白点分布不连续，难以可靠确定车体横向中心。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK_LEFT",
+        "observation": "橙框覆盖一辆黑色 SUV 的侧后部；车身左端在裁剪画面外，框线与车身轮廓有重叠，但无法仅凭投影确定横向偏差。"
+      },
+      {
+        "view": "CAM_BACK",
+        "observation": "橙框覆盖黑色车辆的局部，画面较暗且目标被裁剪，无法可靠辨认完整车体轮廓。"
+      }
+    ],
+    "summary": "LiDAR 两侧轮廓稀疏，后向相机中的目标又被裁剪，无法可靠判断横向偏移方向。",
+    "action": "ABSTAIN"
+  }
+}

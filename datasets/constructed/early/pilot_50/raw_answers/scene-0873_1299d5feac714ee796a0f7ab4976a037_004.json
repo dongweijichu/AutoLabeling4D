@@ -1,0 +1,15 @@
+{
+  "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_004",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中，目标轮廓的白点主要沿橙框上方分布，部分白点落在框内及右边缘附近；上方白点与框有明显间距，但它们不足以清楚确定车体两侧轮廓。",
+    "camera_evidence": [
+      {
+        "view": "CAM_FRONT_LEFT",
+        "observation": "橙框投影覆盖一辆深色轿车的侧面，车轮和车身轮廓部分可见；附近车辆遮挡及重叠使横向偏移难以可靠判断。"
+      }
+    ],
+    "summary": "BEV 白点未形成可可靠定位车体左右边界的完整轮廓，相机投影也不足以确定横向偏移。",
+    "action": "ABSTAIN"
+  }
+}

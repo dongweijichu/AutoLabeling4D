@@ -1,0 +1,352 @@
+[
+  {
+    "id": "scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_000",
+    "source": "ChatGPT/Codex interactive visual annotation",
+    "action": "STOP",
+    "reference": "STOP",
+    "accepted": true
+  },
+  {
+    "id": "scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_001",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "RIGHT",
+    "reference": "LEFT",
+    "accepted": false
+  },
+  {
+    "id": "scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_002",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "STOP",
+    "reference": "STOP",
+    "accepted": true
+  },
+  {
+    "id": "scene-0007_568df10a9f1b48ca8f79b4b534e28b54_000",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "RIGHT",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0007_568df10a9f1b48ca8f79b4b534e28b54_001",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "LEFT",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0043_7ec5350531b74c35a02877ce8314a8d5_000",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0043_7ec5350531b74c35a02877ce8314a8d5_002",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "STOP",
+    "reference": "STOP",
+    "accepted": true
+  },
+  {
+    "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_000",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "LEFT",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_001",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "RIGHT",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_002",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "STOP",
+    "reference": "STOP",
+    "accepted": true
+  },
+  {
+    "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_003",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_004",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "LEFT",
+    "accepted": false
+  },
+  {
+    "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_000",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "STOP",
+    "reference": "STOP",
+    "accepted": true
+  },
+  {
+    "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_001",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "LEFT",
+    "accepted": false
+  },
+  {
+    "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_002",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "LEFT",
+    "accepted": false
+  },
+  {
+    "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_003",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "RIGHT",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_005",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "RIGHT",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_006",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0259_a24259cab390421082cfe0f74f1ff8fd_000",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0259_a24259cab390421082cfe0f74f1ff8fd_001",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "LEFT",
+    "accepted": false
+  },
+  {
+    "id": "scene-0259_a24259cab390421082cfe0f74f1ff8fd_002",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "LEFT",
+    "accepted": false
+  },
+  {
+    "id": "scene-0263_4aee4493e33a49498346ffae27b91135_000",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_000",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "STOP",
+    "reference": "STOP",
+    "accepted": true
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_001",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_002",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "LEFT",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_003",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_004",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "LEFT",
+    "accepted": false
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_005",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "LEFT",
+    "accepted": false
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_006",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "STOP",
+    "reference": "RIGHT",
+    "accepted": false
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_007",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "STOP",
+    "reference": "STOP",
+    "accepted": true
+  },
+  {
+    "id": "scene-0572_6560a430b4aa40a9af64faa02c198003_000",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "STOP",
+    "reference": "STOP",
+    "accepted": true
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_000",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "STOP",
+    "reference": "STOP",
+    "accepted": true
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_001",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "STOP",
+    "reference": "STOP",
+    "accepted": true
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_002",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "RIGHT",
+    "accepted": false
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_003",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_004",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_005",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "LEFT",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_006",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_007",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_000",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "LEFT",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_001",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_002",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "STOP",
+    "reference": "STOP",
+    "accepted": true
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_003",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "LEFT",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_004",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "LEFT",
+    "accepted": false
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_005",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "LEFT",
+    "accepted": false
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_006",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "RIGHT",
+    "accepted": false
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_007",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-1007_1d2877d86a454cf18d2572319e0090df_000",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "STOP",
+    "accepted": false
+  },
+  {
+    "id": "scene-1007_1d2877d86a454cf18d2572319e0090df_001",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "STOP",
+    "reference": "LEFT",
+    "accepted": false
+  },
+  {
+    "id": "scene-1007_1d2877d86a454cf18d2572319e0090df_002",
+    "source": "Codex CLI (ChatGPT sign-in)",
+    "action": "ABSTAIN",
+    "reference": "LEFT",
+    "accepted": false
+  }
+]

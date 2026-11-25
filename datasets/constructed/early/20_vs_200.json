@@ -1,0 +1,243 @@
+{
+  "baseline_sha256": "380fd9b1f67919ee0d69aada92aa8e302624d7e529c1795a28e3d6bf86faf198",
+  "adapter_sha256": "5b29e42213ce0b3c55d19c6dc953d327ee81c3d292c315e3bf8a8426c135a803",
+  "single": [
+    {
+      "image": "images/008/0.png",
+      "gold": "RIGHT",
+      "before": "RIGHT",
+      "after": "RIGHT",
+      "raw": "{\"evidence\": \"白点群中心在橙框中心右侧。\", \"action\": \"RIGHT\"}"
+    },
+    {
+      "image": "images/008/1.png",
+      "gold": "STOP",
+      "before": "STOP",
+      "after": "STOP",
+      "raw": "{\"evidence\": \"白点群与橙框在水平方向已居中。\", \"action\": \"STOP\"}"
+    },
+    {
+      "image": "images/008/2.png",
+      "gold": "LEFT",
+      "before": "RIGHT",
+      "after": "LEFT",
+      "raw": "{\"evidence\": \"白点群中心在橙框中心左侧。\", \"action\": \"LEFT\"}"
+    },
+    {
+      "image": "images/023/0.png",
+      "gold": "RIGHT",
+      "before": "RIGHT",
+      "after": "RIGHT",
+      "raw": "{\"evidence\": \"白点群中心在橙框中心右侧。\", \"action\": \"RIGHT\"}"
+    },
+    {
+      "image": "images/023/1.png",
+      "gold": "STOP",
+      "before": "STOP",
+      "after": "STOP",
+      "raw": "{\"evidence\": \"白点群与橙框在水平方向已居中。\", \"action\": \"STOP\"}"
+    },
+    {
+      "image": "images/023/2.png",
+      "gold": "LEFT",
+      "before": "RIGHT",
+      "after": "LEFT",
+      "raw": "{\"evidence\": \"白点群中心在橙框中心左侧。\", \"action\": \"LEFT\"}"
+    },
+    {
+      "image": "images/000/0.png",
+      "gold": "RIGHT",
+      "before": "RIGHT",
+      "after": "RIGHT",
+      "raw": "{\"evidence\": \"白点群中心在橙框中心右侧。\", \"action\": \"RIGHT\"}"
+    },
+    {
+      "image": "images/000/1.png",
+      "gold": "STOP",
+      "before": "RIGHT",
+      "after": "STOP",
+      "raw": "{\"evidence\": \"白点群与橙框在水平方向已居中。\", \"action\": \"STOP\"}"
+    },
+    {
+      "image": "images/000/2.png",
+      "gold": "LEFT",
+      "before": "RIGHT",
+      "after": "LEFT",
+      "raw": "{\"evidence\": \"白点群中心在橙框中心左侧。\", \"action\": \"LEFT\"}"
+    },
+    {
+      "image": "images/003/0.png",
+      "gold": "RIGHT",
+      "before": "RIGHT",
+      "after": "RIGHT",
+      "raw": "{\"evidence\": \"白点群中心在橙框中心右侧。\", \"action\": \"RIGHT\"}"
+    },
+    {
+      "image": "images/003/1.png",
+      "gold": "STOP",
+      "before": "STOP",
+      "after": "STOP",
+      "raw": "{\"evidence\": \"白点群与橙框在水平方向已居中。\", \"action\": \"STOP\"}"
+    },
+    {
+      "image": "images/003/2.png",
+      "gold": "LEFT",
+      "before": "RIGHT",
+      "after": "LEFT",
+      "raw": "{\"evidence\": \"白点群中心在橙框中心左侧。\", \"action\": \"LEFT\"}"
+    },
+    {
+      "image": "images/020/0.png",
+      "gold": "RIGHT",
+      "before": "STOP",
+      "after": "RIGHT",
+      "raw": "{\"evidence\": \"白点群中心在橙框中心右侧。\", \"action\": \"RIGHT\"}"
+    },
+    {
+      "image": "images/020/1.png",
+      "gold": "STOP",
+      "before": "STOP",
+      "after": "STOP",
+      "raw": "{\"evidence\": \"白点群与橙框在水平方向已居中。\", \"action\": \"STOP\"}"
+    },
+    {
+      "image": "images/020/2.png",
+      "gold": "LEFT",
+      "before": "RIGHT",
+      "after": "LEFT",
+      "raw": "{\"evidence\": \"白点群中心在橙框中心左侧。\", \"action\": \"LEFT\"}"
+    }
+  ],
+  "closed_loop": [
+    {
+      "scene": 8,
+      "start": -56,
+      "final": 0,
+      "actions": [
+        "RIGHT",
+        "RIGHT",
+        "STOP"
+      ],
+      "end": "stop",
+      "success": true,
+      "cycle": false
+    },
+    {
+      "scene": 8,
+      "start": 56,
+      "final": 0,
+      "actions": [
+        "LEFT",
+        "LEFT",
+        "STOP"
+      ],
+      "end": "stop",
+      "success": true,
+      "cycle": false
+    },
+    {
+      "scene": 23,
+      "start": -56,
+      "final": 0,
+      "actions": [
+        "RIGHT",
+        "RIGHT",
+        "STOP"
+      ],
+      "end": "stop",
+      "success": true,
+      "cycle": false
+    },
+    {
+      "scene": 23,
+      "start": 56,
+      "final": 0,
+      "actions": [
+        "LEFT",
+        "LEFT",
+        "STOP"
+      ],
+      "end": "stop",
+      "success": true,
+      "cycle": false
+    },
+    {
+      "scene": 0,
+      "start": -56,
+      "final": 0,
+      "actions": [
+        "RIGHT",
+        "RIGHT",
+        "STOP"
+      ],
+      "end": "stop",
+      "success": true,
+      "cycle": false
+    },
+    {
+      "scene": 0,
+      "start": 56,
+      "final": 0,
+      "actions": [
+        "LEFT",
+        "LEFT",
+        "STOP"
+      ],
+      "end": "stop",
+      "success": true,
+      "cycle": false
+    },
+    {
+      "scene": 3,
+      "start": -56,
+      "final": 0,
+      "actions": [
+        "RIGHT",
+        "RIGHT",
+        "STOP"
+      ],
+      "end": "stop",
+      "success": true,
+      "cycle": false
+    },
+    {
+      "scene": 3,
+      "start": 56,
+      "final": 0,
+      "actions": [
+        "LEFT",
+        "LEFT",
+        "STOP"
+      ],
+      "end": "stop",
+      "success": true,
+      "cycle": false
+    },
+    {
+      "scene": 20,
+      "start": -56,
+      "final": 0,
+      "actions": [
+        "RIGHT",
+        "RIGHT",
+        "STOP"
+      ],
+      "end": "stop",
+      "success": true,
+      "cycle": false
+    },
+    {
+      "scene": 20,
+      "start": 56,
+      "final": 0,
+      "actions": [
+        "LEFT",
+        "LEFT",
+        "STOP"
+      ],
+      "end": "stop",
+      "success": true,
+      "cycle": false
+    }
+  ]
+}

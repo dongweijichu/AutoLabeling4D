@@ -1,0 +1,15 @@
+{
+  "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_003",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "橙框右前端附近有一串白点，主要沿框的右侧边缘及其外侧延伸；框内靠右区域也有少量白点。点云稀疏，难以确定车体完整横向轮廓及其中心。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK_LEFT",
+        "observation": "橙框投影覆盖黑色轿车及其右侧行人附近区域；可辨认出黑车的车头和挡风玻璃，但遮挡与投影重叠使车体横向边界不够清晰。"
+      }
+    ],
+    "summary": "点云未给出清晰的车体横向轮廓，相机画面也不足以独立确定偏移方向。",
+    "action": "ABSTAIN"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "scene-0007_568df10a9f1b48ca8f79b4b534e28b54_000",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "车头朝上、车体左侧对应图左。目标左侧的密集白点轮廓大致位于 x=211–220，当前框左边缘约为 x=202–209；目标轮廓相对框偏右，量级约为 0.20 米。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "画面左侧可辨认白色厢式车的侧面和后轮，橙框投影覆盖该车；画面对车体有裁剪，不能单凭投影确认横向对齐。"
+      },
+      {
+        "view": "CAM_BACK_RIGHT",
+        "observation": "可辨认白色厢式车的车头、挡风玻璃和侧面，橙框投影包围车辆；投影受视角影响，不能单凭它确认横向对齐。"
+      }
+    ],
+    "summary": "BEV 中车辆左侧白点轮廓位于当前框左边缘右方约 0.20 米，建议将框向车体右侧移动。",
+    "action": "RIGHT"
+  }
+}

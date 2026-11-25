@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+teacher_1000/manual_reviews.jsonl

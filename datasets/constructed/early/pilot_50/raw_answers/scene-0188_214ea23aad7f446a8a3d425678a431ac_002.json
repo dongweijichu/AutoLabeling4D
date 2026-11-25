@@ -1,0 +1,15 @@
+{
+  "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_002",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中目标后部的白点轮廓横跨橙框底边附近，左右分布大致居中，没有清晰的横向偏移。",
+    "camera_evidence": [
+      {
+        "view": "CAM_FRONT",
+        "observation": "橙框投影覆盖前方深色车辆，车辆左右外缘与框的横向范围大致相符；投影本身不能证明框已准确对齐。"
+      }
+    ],
+    "summary": "BEV 白点轮廓与橙框横向大致居中，前视图中车辆也位于框内。",
+    "action": "STOP"
+  }
+}

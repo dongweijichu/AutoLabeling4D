@@ -1,0 +1,15 @@
+{
+  "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_000",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中橙框内的车辆白点轮廓整体更靠左，左侧白点贴近或略超框边，右侧余量较大。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "橙框投影覆盖后方银色 Jeep；车头和车身可辨认，投影框与车辆轮廓有偏移，但仅凭投影不能确定横向调整方向。"
+      }
+    ],
+    "summary": "BEV 中目标白点相对橙框偏左，后视相机可辨认目标但不能独立确认横向偏移方向。",
+    "action": "LEFT"
+  }
+}

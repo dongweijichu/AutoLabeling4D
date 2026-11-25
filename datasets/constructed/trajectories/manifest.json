@@ -1,0 +1,319 @@
+{
+  "format": "compact-box-actions/v1",
+  "dataset": "nuScenes v1.0-trainval",
+  "source_split": "val",
+  "detector": "CenterPoint",
+  "identical_pairs_and_initial_boxes": true,
+  "source_replay_tolerance": 1e-10,
+  "runs": {
+    "full": {
+      "axes": [
+        "x",
+        "y",
+        "z",
+        "length",
+        "width",
+        "height",
+        "yaw"
+      ],
+      "counts": {
+        "success": 111917,
+        "failure": 1088
+      },
+      "total_actions": 935147,
+      "action_counts": {
+        "z": 122415,
+        "height": 69870,
+        "width": 77908,
+        "STOP": 111917,
+        "x": 130259,
+        "length": 115508,
+        "y": 141283,
+        "yaw": 165987
+      },
+      "states": 936235,
+      "termination_reasons": {
+        "within_tolerance": 111917,
+        "discrete_local_optimum": 1088
+      },
+      "scope": {
+        "source_split": "val",
+        "frames": 6019,
+        "scenes": 150,
+        "matched_boxes": 113005,
+        "eligible_gt": 121861,
+        "unmatched_gt": 8856,
+        "unmatched_predictions": 364953,
+        "note": "Only matched predictions have a regression target; unmatched boxes are not zero-step episodes."
+      },
+      "frames_with_matches": 5939,
+      "thresholds": {
+        "bev_iou_min": 0.85,
+        "iou3d_min": 0.85,
+        "xy_m": 0.15,
+        "z_m": 0.1,
+        "size_max_m": 0.15,
+        "yaw_deg": 5.0
+      },
+      "configuration": {
+        "box_convention": {
+          "coordinate_frame": "reference_lidar",
+          "reference_channel": "LIDAR_TOP",
+          "fields": [
+            "x",
+            "y",
+            "z",
+            "length",
+            "width",
+            "height",
+            "yaw"
+          ],
+          "center_type": "geometric_center",
+          "distance_unit": "meter",
+          "angle_unit": "radian",
+          "yaw_axis": "+z",
+          "yaw_zero": "+x",
+          "yaw_direction": "right_hand",
+          "yaw_range": "[-pi,pi)",
+          "length_axis": "box_local_x",
+          "width_axis": "box_local_y",
+          "orientation_conversion": "project box local x into reference lidar xy; discard roll/pitch"
+        },
+        "stop": {
+          "bev_iou_min": 0.85,
+          "iou3d_min": 0.85,
+          "xy_m": 0.15,
+          "z_m": 0.1,
+          "size_max_m": 0.15,
+          "yaw_deg": 5.0
+        },
+        "max_edit_steps": 128,
+        "action_values": {
+          "x": {
+            "large": 1.0,
+            "middle": 0.25,
+            "small": 0.05
+          },
+          "y": {
+            "large": 1.0,
+            "middle": 0.25,
+            "small": 0.05
+          },
+          "z": {
+            "large": 0.3,
+            "middle": 0.1,
+            "small": 0.05
+          },
+          "length": {
+            "large": 0.5,
+            "middle": 0.2,
+            "small": 0.05
+          },
+          "width": {
+            "large": 0.5,
+            "middle": 0.2,
+            "small": 0.05
+          },
+          "height": {
+            "large": 0.5,
+            "middle": 0.2,
+            "small": 0.05
+          },
+          "yaw": {
+            "large": 0.3490658503988659,
+            "middle": 0.08726646259971647,
+            "small": 0.017453292519943295
+          }
+        },
+        "category_overrides": {
+          "traffic_cone": {
+            "x": {
+              "small": 0.01
+            },
+            "y": {
+              "small": 0.01
+            },
+            "z": {
+              "small": 0.01
+            }
+          }
+        },
+        "traffic_cone_yaw": "not supervised; footprint IoU ignores heading difference",
+        "barrier_yaw": "pi periodic",
+        "residual_clipping": false
+      },
+      "source_hashes": {
+        "data1.jsonl": "1ae9e636b615e9d3c5f6badf0a2de76bcbb2f07ef149fed6bdab98bcb66b58dc",
+        "failed_episodes.jsonl": "ae04953d9aa6e640f2e20033d976b3d245e81c2e51fa7f021566518bd56c6b45"
+      },
+      "matched_input_sha256": "1f567698ef55523444df79eee9832b239ae86bd47d0097a4bd21bdd690a1303f",
+      "stream_sha256": "a83440d94859cf752eb4e15390f39f291bb6211ea5863f4238bad52d4a3c7a09",
+      "replay_checked": true,
+      "shards": [
+        {
+          "path": "full/episodes-000.jsonl.gz",
+          "sha256": "f6675b710a65de233fa8042775f1f618d6b69c891e75ab949cefd3eea602af60",
+          "bytes": 4074593,
+          "episodes": 29530
+        },
+        {
+          "path": "full/episodes-001.jsonl.gz",
+          "sha256": "abdaeaed5e71e2d7273f6ba6c6b6468ab7b482b4b6b19262fe0f707dfa7c2f78",
+          "bytes": 4068035,
+          "episodes": 29458
+        },
+        {
+          "path": "full/episodes-002.jsonl.gz",
+          "sha256": "64af1fa7513ee187f63043d4479661b444bda6008d2ce946819606a799705dc9",
+          "bytes": 4071313,
+          "episodes": 29467
+        },
+        {
+          "path": "full/episodes-003.jsonl.gz",
+          "sha256": "d66e135846e1c2167e246f4d8ced228e46a6872303e7bc21ddc2bfa32c2e917a",
+          "bytes": 3546486,
+          "episodes": 24550
+        }
+      ]
+    },
+    "xyyaw": {
+      "axes": [
+        "x",
+        "y",
+        "yaw"
+      ],
+      "counts": {
+        "success": 8786,
+        "failure": 104219
+      },
+      "total_actions": 698686,
+      "action_counts": {
+        "x": 207763,
+        "yaw": 255904,
+        "STOP": 8786,
+        "y": 226233
+      },
+      "states": 802905,
+      "termination_reasons": {
+        "within_tolerance": 8786,
+        "discrete_local_optimum": 104219
+      },
+      "scope": {
+        "source_split": "val",
+        "frames": 6019,
+        "scenes": 150,
+        "matched_boxes": 113005,
+        "eligible_gt": 121861,
+        "unmatched_gt": 8856,
+        "unmatched_predictions": 364953,
+        "note": "Only matched predictions have a regression target; unmatched boxes are not zero-step episodes."
+      },
+      "frames_with_matches": 5939,
+      "thresholds": {
+        "bev_iou_min": 0.85,
+        "iou3d_min": 0.85,
+        "xy_m": 0.15,
+        "z_m": 0.1,
+        "size_max_m": 0.15,
+        "yaw_deg": 5.0
+      },
+      "configuration": {
+        "box_convention": {
+          "coordinate_frame": "reference_lidar",
+          "reference_channel": "LIDAR_TOP",
+          "fields": [
+            "x",
+            "y",
+            "z",
+            "length",
+            "width",
+            "height",
+            "yaw"
+          ],
+          "center_type": "geometric_center",
+          "distance_unit": "meter",
+          "angle_unit": "radian",
+          "yaw_axis": "+z",
+          "yaw_zero": "+x",
+          "yaw_direction": "right_hand",
+          "yaw_range": "[-pi,pi)",
+          "length_axis": "box_local_x",
+          "width_axis": "box_local_y",
+          "orientation_conversion": "project box local x into reference lidar xy; discard roll/pitch"
+        },
+        "stop": {
+          "bev_iou_min": 0.85,
+          "iou3d_min": 0.85,
+          "xy_m": 0.15,
+          "z_m": 0.1,
+          "size_max_m": 0.15,
+          "yaw_deg": 5.0
+        },
+        "max_edit_steps": 128,
+        "action_values": {
+          "x": {
+            "large": 1.0,
+            "middle": 0.25,
+            "small": 0.05
+          },
+          "y": {
+            "large": 1.0,
+            "middle": 0.25,
+            "small": 0.05
+          },
+          "yaw": {
+            "large": 0.3490658503988659,
+            "middle": 0.08726646259971647,
+            "small": 0.017453292519943295
+          }
+        },
+        "category_overrides": {
+          "traffic_cone": {
+            "x": {
+              "small": 0.01
+            },
+            "y": {
+              "small": 0.01
+            }
+          }
+        },
+        "traffic_cone_yaw": "not supervised; footprint IoU ignores heading difference",
+        "barrier_yaw": "pi periodic",
+        "residual_clipping": false
+      },
+      "source_hashes": {
+        "data1.jsonl": "1f0ac44e32649e91155f4465588c0857ac964cf40f782243819a2027671ca39f",
+        "failed_episodes.jsonl": "cf98a3b13329988c32ba72aa2aa4fc9d0d4a6c85a44087ae16c437df7aef1f1f"
+      },
+      "matched_input_sha256": "1f567698ef55523444df79eee9832b239ae86bd47d0097a4bd21bdd690a1303f",
+      "stream_sha256": "3803a88c3c72030e0a9a7e0091484157c1f516b0800f56078bfdc0b3a55850b3",
+      "replay_checked": true,
+      "shards": [
+        {
+          "path": "xyyaw/episodes-000.jsonl.gz",
+          "sha256": "a547f418dcd782b71ad1b07192e8a4f388578ddaa92c2ed0d965acb5dfaa84e6",
+          "bytes": 4237543,
+          "episodes": 30417
+        },
+        {
+          "path": "xyyaw/episodes-001.jsonl.gz",
+          "sha256": "19ce52afe743ed809c3b3e14d9af83ad11eb56889ed1bde1b6404003fff1c372",
+          "bytes": 3950980,
+          "episodes": 29501
+        },
+        {
+          "path": "xyyaw/episodes-002.jsonl.gz",
+          "sha256": "4cf445adb5ddf909c1741d952abf9c0b257f547b3db016ba55c7f010992250e3",
+          "bytes": 3952870,
+          "episodes": 29544
+        },
+        {
+          "path": "xyyaw/episodes-003.jsonl.gz",
+          "sha256": "370445519e68ff2ae7849e5cbf0bd0d35a43e129ce459f0de555ed5659109507",
+          "bytes": 3155323,
+          "episodes": 23543
+        }
+      ]
+    }
+  }
+}

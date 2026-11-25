@@ -1,0 +1,19 @@
+{
+  "id": "scene-0572_6560a430b4aa40a9af64faa02c198003_000",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中目标车体的白点轮廓主要位于橙框内，底部横向轮廓的中心与框中心大致重合；右侧邻近的密集白点更像路侧结构，不能作为车体边缘。",
+    "camera_evidence": [
+      {
+        "view": "CAM_FRONT",
+        "observation": "可辨认出前方偏右的深色轿车，橙框覆盖其车身及尾部，红色尾灯可见；投影本身不足以确认横向对齐。"
+      },
+      {
+        "view": "CAM_FRONT_RIGHT",
+        "observation": "画面左缘仅露出目标车尾的一小部分和红色尾灯，橙框部分可见，无法独立判断横向偏差。"
+      }
+    ],
+    "summary": "BEV 中可见车体轮廓的横向中心与橙框中心大致重合，相机投影未显示明确的相反证据。",
+    "action": "STOP"
+  }
+}

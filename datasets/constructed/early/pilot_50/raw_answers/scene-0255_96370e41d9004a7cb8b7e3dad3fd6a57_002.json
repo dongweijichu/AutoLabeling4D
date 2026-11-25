@@ -1,0 +1,15 @@
+{
+  "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_002",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中橙框内的车辆白点主要集中在框的右端，横向位置难以从稀疏轮廓中可靠确定。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK_LEFT",
+        "observation": "橙框投影覆盖一辆深色车辆，但与右侧另一辆深色 SUV 的轮廓重叠，难以可靠判断横向偏移。"
+      }
+    ],
+    "summary": "BEV 白点稀疏且相机投影中车辆轮廓重叠，横向偏移方向无法可靠确定。",
+    "action": "ABSTAIN"
+  }
+}

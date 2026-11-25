@@ -1,0 +1,19 @@
+{
+  "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_005",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "框内车头附近的白点轮廓相对框中心略偏左，但点云稀疏，难以可靠确定车体横向中心。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "橙框投影覆盖左侧灰色车辆及其右侧部分区域；车辆轮廓受模糊和邻车遮挡，难以确定框的横向偏移。"
+      },
+      {
+        "view": "CAM_BACK_RIGHT",
+        "observation": "画面中可见黑色车辆的一部分及画面右缘的橙线，但车辆和框均被裁切，无法判断横向对齐。"
+      }
+    ],
+    "summary": "点云轮廓稀疏，带框相机视图中的目标轮廓也不完整，无法可靠判断横向调整方向。",
+    "action": "ABSTAIN"
+  }
+}

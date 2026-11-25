@@ -1,0 +1,15 @@
+{
+  "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_004",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中白点主要沿橙框左边缘及框内分布，右侧边缘附近白点较少；点迹稀疏，且部分延伸到框外，难以可靠确定车体横向轮廓。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "橙框投影覆盖远处白色车辆及其右侧区域；画面分辨率较低，车辆轮廓与框边的对应关系不够清楚。"
+      }
+    ],
+    "summary": "BEV 点迹不足以确定车体横向中心，后视投影也无法提供可靠的独立校验。",
+    "action": "ABSTAIN"
+  }
+}

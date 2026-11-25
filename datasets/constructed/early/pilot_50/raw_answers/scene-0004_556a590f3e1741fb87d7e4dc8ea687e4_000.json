@@ -1,0 +1,1 @@
+{"id":"scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_000","source":"ChatGPT/Codex interactive visual annotation","decision":{"lidar_evidence":"BEV 下端的密集回波横跨框内左右两侧，两端都贴近橙框，未见整排回波偏出同一侧。","camera_evidence":[{"view":"CAM_FRONT","observation":"白车的车尾和两侧尾灯位于橙框投影内，后保险杠的中部大致对着框的中部。"}],"summary":"车尾回波与前相机轮廓都支持保留当前横向位置。","action":"STOP"}}

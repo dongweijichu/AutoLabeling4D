@@ -1,0 +1,15 @@
+{
+  "id": "scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_001",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中车尾白点贴近框的下边，车体右侧白点在右边界内侧；左侧可辨轮廓与左边界的间隔略大，白点轮廓中心相对当前框偏右。",
+    "camera_evidence": [
+      {
+        "view": "CAM_FRONT",
+        "observation": "橙框对应前方浅色轿车；车尾左侧轮廓在框的左边界内侧，间距大于车尾右侧轮廓与框后端面右边界的间距，车尾相对该端面略偏画面右侧。"
+      }
+    ],
+    "summary": "BEV 轮廓及 CAM_FRONT 中车尾相对框后端面均略偏右，支持将框向车体右侧移动。",
+    "action": "RIGHT"
+  }
+}

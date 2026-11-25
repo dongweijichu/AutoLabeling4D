@@ -1,0 +1,15 @@
+{
+  "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_003",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "框内可见的车体白点较稀疏，缺少可辨认的左右两侧轮廓，无法可靠判断横向中心偏差。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "橙框覆盖后方一辆深色车，但车体被阴影和周围车辆遮挡，侧边轮廓不完整，难以判断横向偏差。"
+      }
+    ],
+    "summary": "LiDAR 侧轮廓稀疏且后视相机中的目标轮廓不完整，无法可靠判断横向调整方向。",
+    "action": "ABSTAIN"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_005",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "橙框在白点所在高度的横向中心约为 x=250；框内较集中的白点约在 x=257–272，偏向框的右侧，距右边线较近。点云较稀疏，车体轮廓不完整。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK_LEFT",
+        "observation": "橙框投影覆盖一辆浅色轿车及周围停放车辆；浅色轿车的可见车身偏向投影框右侧。画面中车辆相互遮挡，投影不能单独证明横向对齐。"
+      }
+    ],
+    "summary": "框内较集中的 LiDAR 白点偏向框的右侧，后左相机中的浅色轿车也偏向投影框右侧。",
+    "action": "RIGHT"
+  }
+}

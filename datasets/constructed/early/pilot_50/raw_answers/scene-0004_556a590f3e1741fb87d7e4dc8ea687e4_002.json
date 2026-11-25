@@ -1,0 +1,15 @@
+{
+  "id": "scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_002",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中目标白点轮廓大致位于橙框内，左右边缘与框的横向位置基本一致，没有明显超过 0.10 米的横向偏移。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "可辨认出黑色车，橙色三维框覆盖车身；车身左右轮廓均可见。投影本身不能证明横向对齐。"
+      }
+    ],
+    "summary": "LiDAR 白点轮廓与橙框横向基本居中，后向相机可确认框对应黑色车。",
+    "action": "STOP"
+  }
+}
