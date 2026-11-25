@@ -1,0 +1,15 @@
+{
+  "id": "scene-1007_1d2877d86a454cf18d2572319e0090df_001",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中，车头附近白点大致位于橙框两侧边界之间；中部白点也接近框的横向中心，没有明显超过 0.10 米的横向偏差。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "橙框内可见远处车辆的亮灯，亮灯整体位于框内，左右留有空间；画面分辨率较低，车身轮廓不清。"
+      }
+    ],
+    "summary": "BEV 白点整体接近橙框横向中心，后视相机中车辆亮灯也位于框内。",
+    "action": "STOP"
+  }
+}

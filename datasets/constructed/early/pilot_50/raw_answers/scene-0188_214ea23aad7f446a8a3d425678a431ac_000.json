@@ -1,0 +1,19 @@
+{
+  "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_000",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中橙框沿车身方向倾斜；车体较密集的白点轮廓靠近框的上侧长边，框下侧留有明显空余，表明当前框相对目标偏向车体右侧。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK_LEFT",
+        "observation": "橙框覆盖白色 SUV 的侧面及后部，车辆轮廓与框线可辨认。"
+      },
+      {
+        "view": "CAM_BACK",
+        "observation": "橙框投影覆盖白色 SUV 的车头，车头与框线可辨认。"
+      }
+    ],
+    "summary": "BEV 中目标白点轮廓偏向橙框的车体左侧，框应向左移动。",
+    "action": "LEFT"
+  }
+}

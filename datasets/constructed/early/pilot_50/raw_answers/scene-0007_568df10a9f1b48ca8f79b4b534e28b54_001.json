@@ -1,0 +1,19 @@
+{
+  "id": "scene-0007_568df10a9f1b48ca8f79b4b534e28b54_001",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中目标车的主要白点轮廓集中在橙框左边缘附近，框内右侧大部分为空；以车头朝上、车体左侧朝左为准，当前框相对轮廓偏右。",
+    "camera_evidence": [
+      {
+        "view": "CAM_FRONT_RIGHT",
+        "observation": "橙框内可辨认银色轿车的后部、后轮及车身侧面；车身向画面右侧延伸出裁剪区域。"
+      },
+      {
+        "view": "CAM_BACK_RIGHT",
+        "observation": "橙框内可辨认银色 Silvercab 轿车的侧面、车窗和车轮，框覆盖车辆可见轮廓。"
+      }
+    ],
+    "summary": "BEV 中车辆轮廓集中在橙框左边缘，表明框相对车辆偏右。",
+    "action": "LEFT"
+  }
+}

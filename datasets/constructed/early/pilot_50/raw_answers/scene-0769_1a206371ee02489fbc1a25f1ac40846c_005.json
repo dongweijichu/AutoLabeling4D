@@ -1,0 +1,15 @@
+{
+  "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_005",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "橙框内目标的白点轮廓整体偏向框的左侧，右侧留有较多空隙。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "可辨认目标为路边黑色轿车；橙框投影覆盖车身，但框的横向边界与车身轮廓存在偏移。"
+      }
+    ],
+    "summary": "BEV 中目标白点整体偏向橙框左侧，后视相机可辨认出对应的黑色轿车。",
+    "action": "LEFT"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "scene-0259_a24259cab390421082cfe0f74f1ff8fd_000",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中橙框横向约为 x=201–279 像素；白点分布稀疏，前端点主要位于框内偏左，右侧有点靠近框边，未形成完整车体轮廓，难以可靠确定横向中心。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "橙框投影内可见一辆浅色车，车身主要出现在投影右半部；画面中还有相邻车辆，且投影受视角影响，无法仅凭画面左右位置确定车体坐标下的偏移。"
+      }
+    ],
+    "summary": "BEV 白点未形成完整车体轮廓，后视相机也不足以可靠确定框的横向偏移。",
+    "action": "ABSTAIN"
+  }
+}

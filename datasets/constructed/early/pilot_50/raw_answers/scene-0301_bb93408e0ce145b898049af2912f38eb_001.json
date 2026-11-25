@@ -1,0 +1,19 @@
+{
+  "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_001",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中橙框左边界约在 x=205，右边界约在 x=275；目标附近较连续的白点轮廓主要沿 x=209–220 分布，集中在框的左侧，右侧较稀疏。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK_RIGHT",
+        "observation": "橙框投影覆盖黑色轿车，车头位于画面左侧，车身向右延伸；框左侧还与前方 SUV 的尾部区域重叠。"
+      },
+      {
+        "view": "CAM_BACK",
+        "observation": "局部裁剪中橙框覆盖一辆深色车辆的部分轮廓，但画面较暗且车辆大部分被截断。"
+      }
+    ],
+    "summary": "BEV 白点偏向框左侧，但相机投影不能独立确认应将框向哪一侧移动。",
+    "action": "ABSTAIN"
+  }
+}

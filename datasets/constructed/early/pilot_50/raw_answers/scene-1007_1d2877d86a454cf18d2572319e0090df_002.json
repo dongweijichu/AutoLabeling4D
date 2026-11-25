@@ -1,0 +1,15 @@
+{
+  "id": "scene-1007_1d2877d86a454cf18d2572319e0090df_002",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中候选车的白点主要沿橙框上侧短边附近分布，部分点落在框内；点较稀疏，难以可靠确定车体横向中心与框中心的偏差。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "局部裁剪中可见一辆车的两个亮灯及其周围轮廓，橙框覆盖该区域；画面较暗，车体边界不够清晰，无法可靠判断横向偏差。"
+      }
+    ],
+    "summary": "LiDAR 点稀疏且后视图中的车体边界不清，无法可靠判断横向调整方向。",
+    "action": "ABSTAIN"
+  }
+}

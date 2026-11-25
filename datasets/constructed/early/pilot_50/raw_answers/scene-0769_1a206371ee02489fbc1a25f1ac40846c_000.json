@@ -1,0 +1,15 @@
+{
+  "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_000",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中橙框横向约为 x=205–275；框内可见的车辆轮廓白点主要集中在 x=213–264，左右留白大致相当，未见明确超过 0.10 米的横向偏差。",
+    "camera_evidence": [
+      {
+        "view": "CAM_FRONT",
+        "observation": "橙框覆盖前方深色轿车，车身左右轮廓均位于框内；该投影本身不能证明横向框位准确。"
+      }
+    ],
+    "summary": "BEV 中目标白点在框内左右分布大致居中，前视图可辨认出框内轿车。",
+    "action": "STOP"
+  }
+}

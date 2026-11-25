@@ -1,0 +1,15 @@
+{
+  "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_000",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中橙框横向约覆盖 x=205–276，车体相关白点主要分布在 x=210–274；左右轮廓相对框边的余量接近，未见明显的横向偏移。",
+    "camera_evidence": [
+      {
+        "view": "CAM_FRONT_LEFT",
+        "observation": "可辨认橙框内的黑色 SUV，车头、车顶、车轮和车尾均可见；车体轮廓大致落在投影框内，左右两端均有余量。投影不能单独证明框已对齐。"
+      }
+    ],
+    "summary": "BEV 中车体白点的左右轮廓相对橙框边缘余量接近，未见明显横向偏移。",
+    "action": "STOP"
+  }
+}

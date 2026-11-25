@@ -1,0 +1,19 @@
+{
+  "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_001",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中目标车辆的主要白点轮廓集中在橙框左侧，左缘局部贴近或略超出框线，右侧框内较空；轮廓不完整，难以可靠估计横向偏差是否超过容差。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "橙框投影覆盖黑色车辆后半部，车辆部分被裁切；可见后轮和尾部。"
+      },
+      {
+        "view": "CAM_BACK_RIGHT",
+        "observation": "橙框投影覆盖黑色奔驰 SUV，可见车头、侧面和车轮；投影范围较宽，不能单凭投影判断横向偏差。"
+      }
+    ],
+    "summary": "BEV 白点偏向框左侧，但轮廓不完整，相机投影也不足以确定应移动的方向和幅度。",
+    "action": "ABSTAIN"
+  }
+}

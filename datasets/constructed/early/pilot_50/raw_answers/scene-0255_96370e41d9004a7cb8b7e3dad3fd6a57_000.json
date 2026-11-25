@@ -1,0 +1,15 @@
+{
+  "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_000",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中橙框右边界约在 x=275，沿车身纵向排列的密集白点约在 x=272–273，比边界偏左约 2–3 像素，折合约 0.06–0.08 米；左侧轮廓白点较稀疏。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK_LEFT",
+        "observation": "可辨认框内的银色车辆，橙框覆盖其侧面，框的边缘超出可见车身；该投影本身不能证明横向对齐。"
+      }
+    ],
+    "summary": "BEV 中密集侧面白点距橙框右边界约 0.06–0.08 米，在横向容差内；相机投影未提供明确相反证据。",
+    "action": "STOP"
+  }
+}

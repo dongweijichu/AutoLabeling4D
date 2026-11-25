@@ -1,0 +1,15 @@
+{"scene": 17, "image": "images/017/0.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群中心在橙框中心右侧。", "action": "RIGHT"}}
+{"scene": 17, "image": "images/017/1.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群与橙框在水平方向已居中。", "action": "STOP"}}
+{"scene": 17, "image": "images/017/2.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群中心在橙框中心左侧。", "action": "LEFT"}}
+{"scene": 28, "image": "images/028/0.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群中心在橙框中心右侧。", "action": "RIGHT"}}
+{"scene": 28, "image": "images/028/1.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群与橙框在水平方向已居中。", "action": "STOP"}}
+{"scene": 28, "image": "images/028/2.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群中心在橙框中心左侧。", "action": "LEFT"}}
+{"scene": 4, "image": "images/004/0.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群中心在橙框中心右侧。", "action": "RIGHT"}}
+{"scene": 4, "image": "images/004/1.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群与橙框在水平方向已居中。", "action": "STOP"}}
+{"scene": 4, "image": "images/004/2.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群中心在橙框中心左侧。", "action": "LEFT"}}
+{"scene": 24, "image": "images/024/0.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群中心在橙框中心右侧。", "action": "RIGHT"}}
+{"scene": 24, "image": "images/024/1.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群与橙框在水平方向已居中。", "action": "STOP"}}
+{"scene": 24, "image": "images/024/2.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群中心在橙框中心左侧。", "action": "LEFT"}}
+{"scene": 7, "image": "images/007/0.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群中心在橙框中心右侧。", "action": "RIGHT"}}
+{"scene": 7, "image": "images/007/1.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群与橙框在水平方向已居中。", "action": "STOP"}}
+{"scene": 7, "image": "images/007/2.png", "question": "白点是车身回波，橙色是当前框。要使框中心对齐点群，下一步怎么移动框？只输出 JSON，evidence 写一句可见依据，action 取 LEFT、RIGHT 或 STOP。", "answer": {"evidence": "白点群中心在橙框中心左侧。", "action": "LEFT"}}

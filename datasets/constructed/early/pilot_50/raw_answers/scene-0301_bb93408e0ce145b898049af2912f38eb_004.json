@@ -1,0 +1,15 @@
+{
+  "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_004",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中框右侧边缘内约 6–8 像素处有一列白点，约为 0.17–0.22 米；框左侧缺少清晰的对应侧面点。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "橙框投影覆盖后方深色车辆，但车辆右侧轮廓受前景车辆遮挡，不能可靠判断横向框边是否对齐。"
+      }
+    ],
+    "summary": "LiDAR 右侧边缘白点位于框内约 0.20 米，相机投影无法独立确认横向偏差。",
+    "action": "ABSTAIN"
+  }
+}

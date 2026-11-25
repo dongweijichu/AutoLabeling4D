@@ -1,0 +1,15 @@
+{
+  "id": "scene-0259_a24259cab390421082cfe0f74f1ff8fd_002",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "橙框内白点稀疏，主要落在框的下边缘附近，另有白点在框外；可辨认的点不足以确定车体横向中心。",
+    "camera_evidence": [
+      {
+        "view": "CAM_FRONT",
+        "observation": "橙框覆盖一辆部分被栏杆遮挡的深色车；车身轮廓不完整，难以判断横向偏移。"
+      }
+    ],
+    "summary": "LiDAR 点稀疏且相机中的车体被遮挡，无法可靠判断框的横向偏移。",
+    "action": "ABSTAIN"
+  }
+}

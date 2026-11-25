@@ -1,0 +1,1439 @@
+[
+  {
+    "id": "scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_000",
+    "scene": "scene-0004",
+    "split": "train",
+    "images": [
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_000/BEV.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_000/CAM_FRONT.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_000/CAM_BACK.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_001",
+    "scene": "scene-0004",
+    "split": "train",
+    "images": [
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_001/BEV.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_001/CAM_FRONT.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_001/CAM_BACK_LEFT.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_001/CAM_BACK.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_002",
+    "scene": "scene-0004",
+    "split": "train",
+    "images": [
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_002/BEV.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_002/CAM_FRONT.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_002/CAM_BACK_LEFT.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_002/CAM_BACK.jpg",
+      "views/scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0007_568df10a9f1b48ca8f79b4b534e28b54_000",
+    "scene": "scene-0007",
+    "split": "train",
+    "images": [
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_000/BEV.jpg",
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_000/CAM_FRONT.jpg",
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_000/CAM_BACK.jpg",
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK",
+      "CAM_BACK_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0007_568df10a9f1b48ca8f79b4b534e28b54_001",
+    "scene": "scene-0007",
+    "split": "train",
+    "images": [
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_001/BEV.jpg",
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_001/CAM_FRONT.jpg",
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_001/CAM_BACK_LEFT.jpg",
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_001/CAM_BACK.jpg",
+      "views/scene-0007_568df10a9f1b48ca8f79b4b534e28b54_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT_RIGHT",
+      "CAM_BACK_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0043_7ec5350531b74c35a02877ce8314a8d5_000",
+    "scene": "scene-0043",
+    "split": "train",
+    "images": [
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_000/BEV.jpg",
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_000/CAM_FRONT.jpg",
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_000/CAM_BACK.jpg",
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-0043_7ec5350531b74c35a02877ce8314a8d5_002",
+    "scene": "scene-0043",
+    "split": "train",
+    "images": [
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_002/BEV.jpg",
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_002/CAM_FRONT.jpg",
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_002/CAM_BACK_LEFT.jpg",
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_002/CAM_BACK.jpg",
+      "views/scene-0043_7ec5350531b74c35a02877ce8314a8d5_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_000",
+    "scene": "scene-0188",
+    "split": "train",
+    "images": [
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_000/BEV.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_000/CAM_FRONT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_000/CAM_BACK.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK_LEFT",
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_001",
+    "scene": "scene-0188",
+    "split": "train",
+    "images": [
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_001/BEV.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_001/CAM_FRONT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_001/CAM_BACK_LEFT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_001/CAM_BACK.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_002",
+    "scene": "scene-0188",
+    "split": "train",
+    "images": [
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_002/BEV.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_002/CAM_FRONT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_002/CAM_BACK_LEFT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_002/CAM_BACK.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_003",
+    "scene": "scene-0188",
+    "split": "train",
+    "images": [
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_003/BEV.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_003/CAM_FRONT_LEFT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_003/CAM_FRONT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_003/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_003/CAM_BACK_LEFT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_003/CAM_BACK.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_003/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0188_214ea23aad7f446a8a3d425678a431ac_004",
+    "scene": "scene-0188",
+    "split": "train",
+    "images": [
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_004/BEV.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_004/CAM_FRONT_LEFT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_004/CAM_FRONT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_004/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_004/CAM_BACK_LEFT.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_004/CAM_BACK.jpg",
+      "views/scene-0188_214ea23aad7f446a8a3d425678a431ac_004/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_000",
+    "scene": "scene-0255",
+    "split": "train",
+    "images": [
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_000/BEV.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_000/CAM_FRONT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_000/CAM_BACK.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_001",
+    "scene": "scene-0255",
+    "split": "train",
+    "images": [
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_001/BEV.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_001/CAM_FRONT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_001/CAM_BACK_LEFT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_001/CAM_BACK.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_002",
+    "scene": "scene-0255",
+    "split": "train",
+    "images": [
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_002/BEV.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_002/CAM_FRONT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_002/CAM_BACK_LEFT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_002/CAM_BACK.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK_LEFT",
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_003",
+    "scene": "scene-0255",
+    "split": "train",
+    "images": [
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_003/BEV.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_003/CAM_FRONT_LEFT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_003/CAM_FRONT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_003/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_003/CAM_BACK_LEFT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_003/CAM_BACK.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_003/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT_LEFT",
+      "CAM_BACK_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_005",
+    "scene": "scene-0255",
+    "split": "train",
+    "images": [
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_005/BEV.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_005/CAM_FRONT_LEFT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_005/CAM_FRONT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_005/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_005/CAM_BACK_LEFT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_005/CAM_BACK.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_005/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_006",
+    "scene": "scene-0255",
+    "split": "train",
+    "images": [
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_006/BEV.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_006/CAM_FRONT_LEFT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_006/CAM_FRONT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_006/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_006/CAM_BACK_LEFT.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_006/CAM_BACK.jpg",
+      "views/scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_006/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK_LEFT",
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0259_a24259cab390421082cfe0f74f1ff8fd_000",
+    "scene": "scene-0259",
+    "split": "train",
+    "images": [
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_000/BEV.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_000/CAM_FRONT.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_000/CAM_BACK.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0259_a24259cab390421082cfe0f74f1ff8fd_001",
+    "scene": "scene-0259",
+    "split": "train",
+    "images": [
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_001/BEV.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_001/CAM_FRONT.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_001/CAM_BACK_LEFT.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_001/CAM_BACK.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0259_a24259cab390421082cfe0f74f1ff8fd_002",
+    "scene": "scene-0259",
+    "split": "train",
+    "images": [
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_002/BEV.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_002/CAM_FRONT.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_002/CAM_BACK_LEFT.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_002/CAM_BACK.jpg",
+      "views/scene-0259_a24259cab390421082cfe0f74f1ff8fd_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-0263_4aee4493e33a49498346ffae27b91135_000",
+    "scene": "scene-0263",
+    "split": "train",
+    "images": [
+      "views/scene-0263_4aee4493e33a49498346ffae27b91135_000/BEV.jpg",
+      "views/scene-0263_4aee4493e33a49498346ffae27b91135_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0263_4aee4493e33a49498346ffae27b91135_000/CAM_FRONT.jpg",
+      "views/scene-0263_4aee4493e33a49498346ffae27b91135_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0263_4aee4493e33a49498346ffae27b91135_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0263_4aee4493e33a49498346ffae27b91135_000/CAM_BACK.jpg",
+      "views/scene-0263_4aee4493e33a49498346ffae27b91135_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0286_30cc7ebed540463aa11b056da2bd4bba_002",
+    "scene": "scene-0286",
+    "split": "dev",
+    "images": [
+      "views/scene-0286_30cc7ebed540463aa11b056da2bd4bba_002/BEV.jpg",
+      "views/scene-0286_30cc7ebed540463aa11b056da2bd4bba_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-0286_30cc7ebed540463aa11b056da2bd4bba_002/CAM_FRONT.jpg",
+      "views/scene-0286_30cc7ebed540463aa11b056da2bd4bba_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0286_30cc7ebed540463aa11b056da2bd4bba_002/CAM_BACK_LEFT.jpg",
+      "views/scene-0286_30cc7ebed540463aa11b056da2bd4bba_002/CAM_BACK.jpg",
+      "views/scene-0286_30cc7ebed540463aa11b056da2bd4bba_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT",
+      "CAM_FRONT_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_000",
+    "scene": "scene-0301",
+    "split": "train",
+    "images": [
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_000/BEV.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_000/CAM_FRONT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_000/CAM_BACK.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_001",
+    "scene": "scene-0301",
+    "split": "train",
+    "images": [
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_001/BEV.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_001/CAM_FRONT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_001/CAM_BACK_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_001/CAM_BACK.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK",
+      "CAM_BACK_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_002",
+    "scene": "scene-0301",
+    "split": "train",
+    "images": [
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_002/BEV.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_002/CAM_FRONT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_002/CAM_BACK_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_002/CAM_BACK.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT_RIGHT",
+      "CAM_BACK_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_003",
+    "scene": "scene-0301",
+    "split": "train",
+    "images": [
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_003/BEV.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_003/CAM_FRONT_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_003/CAM_FRONT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_003/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_003/CAM_BACK_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_003/CAM_BACK.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_003/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_004",
+    "scene": "scene-0301",
+    "split": "train",
+    "images": [
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_004/BEV.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_004/CAM_FRONT_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_004/CAM_FRONT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_004/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_004/CAM_BACK_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_004/CAM_BACK.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_004/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_005",
+    "scene": "scene-0301",
+    "split": "train",
+    "images": [
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_005/BEV.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_005/CAM_FRONT_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_005/CAM_FRONT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_005/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_005/CAM_BACK_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_005/CAM_BACK.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_005/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_006",
+    "scene": "scene-0301",
+    "split": "train",
+    "images": [
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_006/BEV.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_006/CAM_FRONT_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_006/CAM_FRONT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_006/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_006/CAM_BACK_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_006/CAM_BACK.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_006/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT",
+      "CAM_FRONT_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0301_bb93408e0ce145b898049af2912f38eb_007",
+    "scene": "scene-0301",
+    "split": "train",
+    "images": [
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_007/BEV.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_007/CAM_FRONT_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_007/CAM_FRONT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_007/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_007/CAM_BACK_LEFT.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_007/CAM_BACK.jpg",
+      "views/scene-0301_bb93408e0ce145b898049af2912f38eb_007/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT",
+      "CAM_FRONT_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0376_e208ea543b754f6b8d2907eda9544db6_000",
+    "scene": "scene-0376",
+    "split": "dev",
+    "images": [
+      "views/scene-0376_e208ea543b754f6b8d2907eda9544db6_000/BEV.jpg",
+      "views/scene-0376_e208ea543b754f6b8d2907eda9544db6_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0376_e208ea543b754f6b8d2907eda9544db6_000/CAM_FRONT.jpg",
+      "views/scene-0376_e208ea543b754f6b8d2907eda9544db6_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0376_e208ea543b754f6b8d2907eda9544db6_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0376_e208ea543b754f6b8d2907eda9544db6_000/CAM_BACK.jpg",
+      "views/scene-0376_e208ea543b754f6b8d2907eda9544db6_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK_LEFT",
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_000",
+    "scene": "scene-0475",
+    "split": "dev",
+    "images": [
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_000/BEV.jpg",
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_000/CAM_FRONT.jpg",
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_000/CAM_BACK.jpg",
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_001",
+    "scene": "scene-0475",
+    "split": "dev",
+    "images": [
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_001/BEV.jpg",
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_001/CAM_FRONT.jpg",
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_001/CAM_BACK_LEFT.jpg",
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_001/CAM_BACK.jpg",
+      "views/scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0506_e361262896774f8f92bf46e84155deaa_000",
+    "scene": "scene-0506",
+    "split": "dev",
+    "images": [
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_000/BEV.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_000/CAM_FRONT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_000/CAM_BACK.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0506_e361262896774f8f92bf46e84155deaa_001",
+    "scene": "scene-0506",
+    "split": "dev",
+    "images": [
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_001/BEV.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_001/CAM_FRONT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_001/CAM_BACK_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_001/CAM_BACK.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0506_e361262896774f8f92bf46e84155deaa_002",
+    "scene": "scene-0506",
+    "split": "dev",
+    "images": [
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_002/BEV.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_002/CAM_FRONT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_002/CAM_BACK_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_002/CAM_BACK.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-0506_e361262896774f8f92bf46e84155deaa_003",
+    "scene": "scene-0506",
+    "split": "dev",
+    "images": [
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_003/BEV.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_003/CAM_FRONT_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_003/CAM_FRONT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_003/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_003/CAM_BACK_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_003/CAM_BACK.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_003/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT",
+      "CAM_FRONT_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0506_e361262896774f8f92bf46e84155deaa_004",
+    "scene": "scene-0506",
+    "split": "dev",
+    "images": [
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_004/BEV.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_004/CAM_FRONT_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_004/CAM_FRONT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_004/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_004/CAM_BACK_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_004/CAM_BACK.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_004/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0506_e361262896774f8f92bf46e84155deaa_005",
+    "scene": "scene-0506",
+    "split": "dev",
+    "images": [
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_005/BEV.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_005/CAM_FRONT_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_005/CAM_FRONT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_005/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_005/CAM_BACK_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_005/CAM_BACK.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_005/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0506_e361262896774f8f92bf46e84155deaa_006",
+    "scene": "scene-0506",
+    "split": "dev",
+    "images": [
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_006/BEV.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_006/CAM_FRONT_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_006/CAM_FRONT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_006/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_006/CAM_BACK_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_006/CAM_BACK.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_006/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT_LEFT",
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-0506_e361262896774f8f92bf46e84155deaa_007",
+    "scene": "scene-0506",
+    "split": "dev",
+    "images": [
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_007/BEV.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_007/CAM_FRONT_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_007/CAM_FRONT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_007/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_007/CAM_BACK_LEFT.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_007/CAM_BACK.jpg",
+      "views/scene-0506_e361262896774f8f92bf46e84155deaa_007/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK",
+      "CAM_BACK_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0572_6560a430b4aa40a9af64faa02c198003_000",
+    "scene": "scene-0572",
+    "split": "train",
+    "images": [
+      "views/scene-0572_6560a430b4aa40a9af64faa02c198003_000/BEV.jpg",
+      "views/scene-0572_6560a430b4aa40a9af64faa02c198003_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0572_6560a430b4aa40a9af64faa02c198003_000/CAM_FRONT.jpg",
+      "views/scene-0572_6560a430b4aa40a9af64faa02c198003_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0572_6560a430b4aa40a9af64faa02c198003_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0572_6560a430b4aa40a9af64faa02c198003_000/CAM_BACK.jpg",
+      "views/scene-0572_6560a430b4aa40a9af64faa02c198003_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT",
+      "CAM_FRONT_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0643_41ac7958cc934126a1503b25cd90f9ba_000",
+    "scene": "scene-0643",
+    "split": "dev",
+    "images": [
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_000/BEV.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_000/CAM_FRONT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_000/CAM_BACK.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0643_41ac7958cc934126a1503b25cd90f9ba_001",
+    "scene": "scene-0643",
+    "split": "dev",
+    "images": [
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_001/BEV.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_001/CAM_FRONT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_001/CAM_BACK_LEFT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_001/CAM_BACK.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT",
+      "CAM_FRONT_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0643_41ac7958cc934126a1503b25cd90f9ba_002",
+    "scene": "scene-0643",
+    "split": "dev",
+    "images": [
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_002/BEV.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_002/CAM_FRONT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_002/CAM_BACK_LEFT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_002/CAM_BACK.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT_LEFT",
+      "CAM_BACK_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0643_41ac7958cc934126a1503b25cd90f9ba_003",
+    "scene": "scene-0643",
+    "split": "dev",
+    "images": [
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_003/BEV.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_003/CAM_FRONT_LEFT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_003/CAM_FRONT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_003/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_003/CAM_BACK_LEFT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_003/CAM_BACK.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_003/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0643_41ac7958cc934126a1503b25cd90f9ba_004",
+    "scene": "scene-0643",
+    "split": "dev",
+    "images": [
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_004/BEV.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_004/CAM_FRONT_LEFT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_004/CAM_FRONT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_004/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_004/CAM_BACK_LEFT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_004/CAM_BACK.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_004/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-0643_41ac7958cc934126a1503b25cd90f9ba_005",
+    "scene": "scene-0643",
+    "split": "dev",
+    "images": [
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_005/BEV.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_005/CAM_FRONT_LEFT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_005/CAM_FRONT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_005/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_005/CAM_BACK_LEFT.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_005/CAM_BACK.jpg",
+      "views/scene-0643_41ac7958cc934126a1503b25cd90f9ba_005/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0684_53b9bb9e5ab64343b56af300324a9563_000",
+    "scene": "scene-0684",
+    "split": "dev",
+    "images": [
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_000/BEV.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_000/CAM_FRONT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_000/CAM_BACK.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0684_53b9bb9e5ab64343b56af300324a9563_001",
+    "scene": "scene-0684",
+    "split": "dev",
+    "images": [
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_001/BEV.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_001/CAM_FRONT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_001/CAM_BACK_LEFT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_001/CAM_BACK.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0684_53b9bb9e5ab64343b56af300324a9563_002",
+    "scene": "scene-0684",
+    "split": "dev",
+    "images": [
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_002/BEV.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_002/CAM_FRONT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_002/CAM_BACK_LEFT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_002/CAM_BACK.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0684_53b9bb9e5ab64343b56af300324a9563_004",
+    "scene": "scene-0684",
+    "split": "dev",
+    "images": [
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_004/BEV.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_004/CAM_FRONT_LEFT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_004/CAM_FRONT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_004/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_004/CAM_BACK_LEFT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_004/CAM_BACK.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_004/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0684_53b9bb9e5ab64343b56af300324a9563_006",
+    "scene": "scene-0684",
+    "split": "dev",
+    "images": [
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_006/BEV.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_006/CAM_FRONT_LEFT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_006/CAM_FRONT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_006/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_006/CAM_BACK_LEFT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_006/CAM_BACK.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_006/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0684_53b9bb9e5ab64343b56af300324a9563_009",
+    "scene": "scene-0684",
+    "split": "dev",
+    "images": [
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_009/BEV.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_009/CAM_FRONT_LEFT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_009/CAM_FRONT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_009/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_009/CAM_BACK_LEFT.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_009/CAM_BACK.jpg",
+      "views/scene-0684_53b9bb9e5ab64343b56af300324a9563_009/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_000",
+    "scene": "scene-0761",
+    "split": "dev",
+    "images": [
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_000/BEV.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_000/CAM_FRONT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_000/CAM_BACK.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT_LEFT",
+      "CAM_FRONT",
+      "CAM_BACK_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_001",
+    "scene": "scene-0761",
+    "split": "dev",
+    "images": [
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_001/BEV.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_001/CAM_FRONT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_001/CAM_BACK_LEFT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_001/CAM_BACK.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_002",
+    "scene": "scene-0761",
+    "split": "dev",
+    "images": [
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_002/BEV.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_002/CAM_FRONT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_002/CAM_BACK_LEFT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_002/CAM_BACK.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_003",
+    "scene": "scene-0761",
+    "split": "dev",
+    "images": [
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_003/BEV.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_003/CAM_FRONT_LEFT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_003/CAM_FRONT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_003/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_003/CAM_BACK_LEFT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_003/CAM_BACK.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_003/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_004",
+    "scene": "scene-0761",
+    "split": "dev",
+    "images": [
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_004/BEV.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_004/CAM_FRONT_LEFT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_004/CAM_FRONT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_004/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_004/CAM_BACK_LEFT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_004/CAM_BACK.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_004/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK",
+      "CAM_BACK_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_005",
+    "scene": "scene-0761",
+    "split": "dev",
+    "images": [
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_005/BEV.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_005/CAM_FRONT_LEFT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_005/CAM_FRONT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_005/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_005/CAM_BACK_LEFT.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_005/CAM_BACK.jpg",
+      "views/scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_005/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_000",
+    "scene": "scene-0769",
+    "split": "train",
+    "images": [
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_000/BEV.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_000/CAM_FRONT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_000/CAM_BACK.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_001",
+    "scene": "scene-0769",
+    "split": "train",
+    "images": [
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_001/BEV.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_001/CAM_FRONT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_001/CAM_BACK_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_001/CAM_BACK.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_002",
+    "scene": "scene-0769",
+    "split": "train",
+    "images": [
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_002/BEV.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_002/CAM_FRONT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_002/CAM_BACK_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_002/CAM_BACK.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_003",
+    "scene": "scene-0769",
+    "split": "train",
+    "images": [
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_003/BEV.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_003/CAM_FRONT_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_003/CAM_FRONT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_003/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_003/CAM_BACK_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_003/CAM_BACK.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_003/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_004",
+    "scene": "scene-0769",
+    "split": "train",
+    "images": [
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_004/BEV.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_004/CAM_FRONT_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_004/CAM_FRONT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_004/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_004/CAM_BACK_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_004/CAM_BACK.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_004/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK_LEFT",
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_005",
+    "scene": "scene-0769",
+    "split": "train",
+    "images": [
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_005/BEV.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_005/CAM_FRONT_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_005/CAM_FRONT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_005/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_005/CAM_BACK_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_005/CAM_BACK.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_005/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_006",
+    "scene": "scene-0769",
+    "split": "train",
+    "images": [
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_006/BEV.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_006/CAM_FRONT_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_006/CAM_FRONT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_006/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_006/CAM_BACK_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_006/CAM_BACK.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_006/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_007",
+    "scene": "scene-0769",
+    "split": "train",
+    "images": [
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_007/BEV.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_007/CAM_FRONT_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_007/CAM_FRONT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_007/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_007/CAM_BACK_LEFT.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_007/CAM_BACK.jpg",
+      "views/scene-0769_1a206371ee02489fbc1a25f1ac40846c_007/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_000",
+    "scene": "scene-0873",
+    "split": "train",
+    "images": [
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_000/BEV.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_000/CAM_FRONT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_000/CAM_BACK.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_001",
+    "scene": "scene-0873",
+    "split": "train",
+    "images": [
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_001/BEV.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_001/CAM_FRONT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_001/CAM_BACK_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_001/CAM_BACK.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK",
+      "CAM_BACK_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_002",
+    "scene": "scene-0873",
+    "split": "train",
+    "images": [
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_002/BEV.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_002/CAM_FRONT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_002/CAM_BACK_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_002/CAM_BACK.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_003",
+    "scene": "scene-0873",
+    "split": "train",
+    "images": [
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_003/BEV.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_003/CAM_FRONT_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_003/CAM_FRONT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_003/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_003/CAM_BACK_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_003/CAM_BACK.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_003/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT",
+      "CAM_FRONT_RIGHT",
+      "CAM_BACK_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_004",
+    "scene": "scene-0873",
+    "split": "train",
+    "images": [
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_004/BEV.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_004/CAM_FRONT_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_004/CAM_FRONT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_004/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_004/CAM_BACK_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_004/CAM_BACK.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_004/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_005",
+    "scene": "scene-0873",
+    "split": "train",
+    "images": [
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_005/BEV.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_005/CAM_FRONT_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_005/CAM_FRONT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_005/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_005/CAM_BACK_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_005/CAM_BACK.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_005/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK",
+      "CAM_BACK_RIGHT"
+    ]
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_006",
+    "scene": "scene-0873",
+    "split": "train",
+    "images": [
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_006/BEV.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_006/CAM_FRONT_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_006/CAM_FRONT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_006/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_006/CAM_BACK_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_006/CAM_BACK.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_006/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-0873_1299d5feac714ee796a0f7ab4976a037_007",
+    "scene": "scene-0873",
+    "split": "train",
+    "images": [
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_007/BEV.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_007/CAM_FRONT_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_007/CAM_FRONT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_007/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_007/CAM_BACK_LEFT.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_007/CAM_BACK.jpg",
+      "views/scene-0873_1299d5feac714ee796a0f7ab4976a037_007/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT_LEFT"
+    ]
+  },
+  {
+    "id": "scene-0997_ceb305d93c7a46baba06a4b9e3cf163f_000",
+    "scene": "scene-0997",
+    "split": "dev",
+    "images": [
+      "views/scene-0997_ceb305d93c7a46baba06a4b9e3cf163f_000/BEV.jpg",
+      "views/scene-0997_ceb305d93c7a46baba06a4b9e3cf163f_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-0997_ceb305d93c7a46baba06a4b9e3cf163f_000/CAM_FRONT.jpg",
+      "views/scene-0997_ceb305d93c7a46baba06a4b9e3cf163f_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-0997_ceb305d93c7a46baba06a4b9e3cf163f_000/CAM_BACK_LEFT.jpg",
+      "views/scene-0997_ceb305d93c7a46baba06a4b9e3cf163f_000/CAM_BACK.jpg",
+      "views/scene-0997_ceb305d93c7a46baba06a4b9e3cf163f_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-1007_1d2877d86a454cf18d2572319e0090df_000",
+    "scene": "scene-1007",
+    "split": "train",
+    "images": [
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_000/BEV.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_000/CAM_FRONT.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_000/CAM_BACK_LEFT.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_000/CAM_BACK.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-1007_1d2877d86a454cf18d2572319e0090df_001",
+    "scene": "scene-1007",
+    "split": "train",
+    "images": [
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_001/BEV.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_001/CAM_FRONT_LEFT.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_001/CAM_FRONT.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_001/CAM_FRONT_RIGHT.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_001/CAM_BACK_LEFT.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_001/CAM_BACK.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_001/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-1007_1d2877d86a454cf18d2572319e0090df_002",
+    "scene": "scene-1007",
+    "split": "train",
+    "images": [
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_002/BEV.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_002/CAM_FRONT.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_002/CAM_BACK_LEFT.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_002/CAM_BACK.jpg",
+      "views/scene-1007_1d2877d86a454cf18d2572319e0090df_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  },
+  {
+    "id": "scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_000",
+    "scene": "scene-1019",
+    "split": "dev",
+    "images": [
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_000/BEV.jpg",
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_000/CAM_FRONT_LEFT.jpg",
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_000/CAM_FRONT.jpg",
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_000/CAM_FRONT_RIGHT.jpg",
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_000/CAM_BACK_LEFT.jpg",
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_000/CAM_BACK.jpg",
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_000/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_FRONT"
+    ]
+  },
+  {
+    "id": "scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_002",
+    "scene": "scene-1019",
+    "split": "dev",
+    "images": [
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_002/BEV.jpg",
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_002/CAM_FRONT_LEFT.jpg",
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_002/CAM_FRONT.jpg",
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_002/CAM_FRONT_RIGHT.jpg",
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_002/CAM_BACK_LEFT.jpg",
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_002/CAM_BACK.jpg",
+      "views/scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_002/CAM_BACK_RIGHT.jpg"
+    ],
+    "projected": [
+      "CAM_BACK"
+    ]
+  }
+]

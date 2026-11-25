@@ -1,0 +1,15 @@
+{
+  "id": "scene-0259_a24259cab390421082cfe0f74f1ff8fd_001",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "框内仅有少量白点，右侧附近有两个点、下边缘附近有一个点，未形成可辨认的车体横向轮廓，无法可靠判断横向偏移。",
+    "camera_evidence": [
+      {
+        "view": "CAM_FRONT_LEFT",
+        "observation": "橙框投影覆盖一辆深色车及附近行人，车辆轮廓被遮挡且与框线重叠，无法可靠判断框相对车体的横向偏移。"
+      }
+    ],
+    "summary": "BEV 白点不足以确定车体轮廓，CAM_FRONT_LEFT 中的车辆又被遮挡，因此无法可靠判断横向调整方向。",
+    "action": "ABSTAIN"
+  }
+}

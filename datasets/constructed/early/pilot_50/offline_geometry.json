@@ -1,0 +1,417 @@
+{
+  "scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_000": {
+    "dy": -0.08059139898738571,
+    "reference": "STOP",
+    "gt_token": "ab01c4b115124c3bb91e51a7d9fe0a31"
+  },
+  "scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_001": {
+    "dy": 0.14420613242900826,
+    "reference": "LEFT",
+    "gt_token": "1665b07e2ca4402d88980ee5e57975c7"
+  },
+  "scene-0004_556a590f3e1741fb87d7e4dc8ea687e4_002": {
+    "dy": -0.0636423761844136,
+    "reference": "STOP",
+    "gt_token": "cfcc2e67f4ba46e3a6f9e5fccbc4dd0f"
+  },
+  "scene-0007_568df10a9f1b48ca8f79b4b534e28b54_000": {
+    "dy": -0.08638933643329905,
+    "reference": "STOP",
+    "gt_token": "da5363c44c184f748db460dd00344549"
+  },
+  "scene-0007_568df10a9f1b48ca8f79b4b534e28b54_001": {
+    "dy": 0.06730211602642555,
+    "reference": "STOP",
+    "gt_token": "1b12d56b253b406dbb4f2514cb318b8e"
+  },
+  "scene-0043_7ec5350531b74c35a02877ce8314a8d5_000": {
+    "dy": -0.014884152772642434,
+    "reference": "STOP",
+    "gt_token": "7f69c1e626a646b3a6c5fe5b127f0786"
+  },
+  "scene-0043_7ec5350531b74c35a02877ce8314a8d5_002": {
+    "dy": -0.056284347433080306,
+    "reference": "STOP",
+    "gt_token": "0c707a7e7c62464d9f0768f39bf81947"
+  },
+  "scene-0188_214ea23aad7f446a8a3d425678a431ac_000": {
+    "dy": 0.012118592214951818,
+    "reference": "STOP",
+    "gt_token": "292b5e0130b44cf4b03c091c84735073"
+  },
+  "scene-0188_214ea23aad7f446a8a3d425678a431ac_001": {
+    "dy": -0.00547065747372244,
+    "reference": "STOP",
+    "gt_token": "2b0ee0ed9fa4455eaad52620df3a1c13"
+  },
+  "scene-0188_214ea23aad7f446a8a3d425678a431ac_002": {
+    "dy": 0.023029364756732562,
+    "reference": "STOP",
+    "gt_token": "4e9e0bded6004dc3b09f9c2f097fd76b"
+  },
+  "scene-0188_214ea23aad7f446a8a3d425678a431ac_003": {
+    "dy": -0.03716151339959595,
+    "reference": "STOP",
+    "gt_token": "0d04dc325e3a4f91b21fdc93ed984fef"
+  },
+  "scene-0188_214ea23aad7f446a8a3d425678a431ac_004": {
+    "dy": 0.11404841466982063,
+    "reference": "LEFT",
+    "gt_token": "d6da52c5f3c142d8a0dc088eb468aab1"
+  },
+  "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_000": {
+    "dy": 0.013320929716012841,
+    "reference": "STOP",
+    "gt_token": "0e0a866b9823421bb13f4add44f561ab"
+  },
+  "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_001": {
+    "dy": 0.23596227681724535,
+    "reference": "LEFT",
+    "gt_token": "eb441334fb394cb688ea4ff63e81090d"
+  },
+  "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_002": {
+    "dy": 0.13773655198357204,
+    "reference": "LEFT",
+    "gt_token": "e1ec8a6531714aab9eb0823f0ca89c88"
+  },
+  "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_003": {
+    "dy": 0.044619381855415696,
+    "reference": "STOP",
+    "gt_token": "131a4121204346b1bcdff988b45ff0c2"
+  },
+  "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_005": {
+    "dy": 0.08893241318641287,
+    "reference": "STOP",
+    "gt_token": "cdd9d7a1ceee454596f9419a5cbf8cea"
+  },
+  "scene-0255_96370e41d9004a7cb8b7e3dad3fd6a57_006": {
+    "dy": 0.09617939005595133,
+    "reference": "STOP",
+    "gt_token": "9d294af2ebb448a4862abdac65508d7f"
+  },
+  "scene-0259_a24259cab390421082cfe0f74f1ff8fd_000": {
+    "dy": -0.06483725494435255,
+    "reference": "STOP",
+    "gt_token": "55c25c65f6ab4c63aad1694fcf9800c7"
+  },
+  "scene-0259_a24259cab390421082cfe0f74f1ff8fd_001": {
+    "dy": 0.20422359563907833,
+    "reference": "LEFT",
+    "gt_token": "96942e8e5ce84a649f6b42f6107790be"
+  },
+  "scene-0259_a24259cab390421082cfe0f74f1ff8fd_002": {
+    "dy": 0.25760197434430765,
+    "reference": "LEFT",
+    "gt_token": "ea2619249a5a44f0808cdb87f13951ad"
+  },
+  "scene-0263_4aee4493e33a49498346ffae27b91135_000": {
+    "dy": -0.061553098832422215,
+    "reference": "STOP",
+    "gt_token": "a5af358cf0844e39a6a21210a0c41386"
+  },
+  "scene-0286_30cc7ebed540463aa11b056da2bd4bba_002": {
+    "dy": -0.040628415390971284,
+    "reference": "STOP",
+    "gt_token": "6865f958bab54d488ce14a88095c98ef"
+  },
+  "scene-0301_bb93408e0ce145b898049af2912f38eb_000": {
+    "dy": -0.0080359706932569,
+    "reference": "STOP",
+    "gt_token": "8c9b0fe0a38f48109cb9b8b0d40e674e"
+  },
+  "scene-0301_bb93408e0ce145b898049af2912f38eb_001": {
+    "dy": -0.01613758328241044,
+    "reference": "STOP",
+    "gt_token": "804c6295faed4a819092049a052057e7"
+  },
+  "scene-0301_bb93408e0ce145b898049af2912f38eb_002": {
+    "dy": -0.06495822904745019,
+    "reference": "STOP",
+    "gt_token": "57198854211d4346a58dc01296f8e843"
+  },
+  "scene-0301_bb93408e0ce145b898049af2912f38eb_003": {
+    "dy": 0.023502359292532304,
+    "reference": "STOP",
+    "gt_token": "0376de10b4df4daba27806fd9ac29679"
+  },
+  "scene-0301_bb93408e0ce145b898049af2912f38eb_004": {
+    "dy": 0.1324340806864086,
+    "reference": "LEFT",
+    "gt_token": "c201ffc5a6964d48a5f12c2e75c52777"
+  },
+  "scene-0301_bb93408e0ce145b898049af2912f38eb_005": {
+    "dy": 0.11660194548262304,
+    "reference": "LEFT",
+    "gt_token": "dfd633049c874b3f86c1c56d1447e7d9"
+  },
+  "scene-0301_bb93408e0ce145b898049af2912f38eb_006": {
+    "dy": -0.14832331645003016,
+    "reference": "RIGHT",
+    "gt_token": "6742c62a709f43ca93d1ff1b20792e33"
+  },
+  "scene-0301_bb93408e0ce145b898049af2912f38eb_007": {
+    "dy": 0.007754628480674874,
+    "reference": "STOP",
+    "gt_token": "e157aef221bb448692e38edb57b58103"
+  },
+  "scene-0376_e208ea543b754f6b8d2907eda9544db6_000": {
+    "dy": -0.03711674973033041,
+    "reference": "STOP",
+    "gt_token": "f599192bb9364612872730e0b33608b3"
+  },
+  "scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_000": {
+    "dy": 0.06298854295346917,
+    "reference": "STOP",
+    "gt_token": "125cf8eb6bd142e0a5ec93ab2d49672c"
+  },
+  "scene-0475_3cb1b3074c7a4286a4b7e3ba5131c296_001": {
+    "dy": -0.06896997186285603,
+    "reference": "STOP",
+    "gt_token": "562c564670444b2b984985e9d6a103b1"
+  },
+  "scene-0506_e361262896774f8f92bf46e84155deaa_000": {
+    "dy": -0.09220342569632578,
+    "reference": "STOP",
+    "gt_token": "9847d99da82f469caaff5166053cae56"
+  },
+  "scene-0506_e361262896774f8f92bf46e84155deaa_001": {
+    "dy": -0.01913234670708519,
+    "reference": "STOP",
+    "gt_token": "7f0d8dc08d104b67b5481bc5238fd109"
+  },
+  "scene-0506_e361262896774f8f92bf46e84155deaa_002": {
+    "dy": 0.03496628217609299,
+    "reference": "STOP",
+    "gt_token": "a7803747514245ea8f9b1145ddfb5d11"
+  },
+  "scene-0506_e361262896774f8f92bf46e84155deaa_003": {
+    "dy": -0.002322964427936114,
+    "reference": "STOP",
+    "gt_token": "4b722df9af824e3a9a92412494f0af98"
+  },
+  "scene-0506_e361262896774f8f92bf46e84155deaa_004": {
+    "dy": 0.11108193070083505,
+    "reference": "LEFT",
+    "gt_token": "d29cf926fa934f5d8a3d0f7f6283f0a5"
+  },
+  "scene-0506_e361262896774f8f92bf46e84155deaa_005": {
+    "dy": 0.0291816704006842,
+    "reference": "STOP",
+    "gt_token": "2c3fbe93e7554a31b21c4fd6b6c66848"
+  },
+  "scene-0506_e361262896774f8f92bf46e84155deaa_006": {
+    "dy": -0.045058696375750884,
+    "reference": "STOP",
+    "gt_token": "004938090c6d4c93b63d54ee2ee9af5b"
+  },
+  "scene-0506_e361262896774f8f92bf46e84155deaa_007": {
+    "dy": 0.09132878899372177,
+    "reference": "STOP",
+    "gt_token": "61e51900cd024e329276af2b730b5622"
+  },
+  "scene-0572_6560a430b4aa40a9af64faa02c198003_000": {
+    "dy": -0.028168599548638706,
+    "reference": "STOP",
+    "gt_token": "801575ec2f894927b9b1a0f153ade475"
+  },
+  "scene-0643_41ac7958cc934126a1503b25cd90f9ba_000": {
+    "dy": 0.028163538749459427,
+    "reference": "STOP",
+    "gt_token": "ee8ca908ee304505a63b2acb2478d8b1"
+  },
+  "scene-0643_41ac7958cc934126a1503b25cd90f9ba_001": {
+    "dy": -0.13868255427125487,
+    "reference": "RIGHT",
+    "gt_token": "a2f4b44744674eac8123ddff04f57943"
+  },
+  "scene-0643_41ac7958cc934126a1503b25cd90f9ba_002": {
+    "dy": -0.009003737730250094,
+    "reference": "STOP",
+    "gt_token": "16de32eccb9240419a77135b96ba8218"
+  },
+  "scene-0643_41ac7958cc934126a1503b25cd90f9ba_003": {
+    "dy": 0.03944697514610773,
+    "reference": "STOP",
+    "gt_token": "2030ebb36340440f99214aa7781dd602"
+  },
+  "scene-0643_41ac7958cc934126a1503b25cd90f9ba_004": {
+    "dy": -0.1329361539024454,
+    "reference": "RIGHT",
+    "gt_token": "62dacca9f1094e4f9a8be8d8db91bbf2"
+  },
+  "scene-0643_41ac7958cc934126a1503b25cd90f9ba_005": {
+    "dy": 0.04693868226158315,
+    "reference": "STOP",
+    "gt_token": "73b31a0e2a2f447abd37c0c38bd061d8"
+  },
+  "scene-0684_53b9bb9e5ab64343b56af300324a9563_000": {
+    "dy": -0.12317772156938389,
+    "reference": "RIGHT",
+    "gt_token": "3e40a1f5512d4d71b60b6fd86e416d31"
+  },
+  "scene-0684_53b9bb9e5ab64343b56af300324a9563_001": {
+    "dy": 0.08203356022073827,
+    "reference": "STOP",
+    "gt_token": "be6f516ff83e48f1a6469cc1c1edfb73"
+  },
+  "scene-0684_53b9bb9e5ab64343b56af300324a9563_002": {
+    "dy": -0.04305763966767273,
+    "reference": "STOP",
+    "gt_token": "416706640ebe41e08ec42584a6d4f105"
+  },
+  "scene-0684_53b9bb9e5ab64343b56af300324a9563_004": {
+    "dy": -0.08807206710434023,
+    "reference": "STOP",
+    "gt_token": "2cfb70a17788460fb45b5639f3ed655f"
+  },
+  "scene-0684_53b9bb9e5ab64343b56af300324a9563_006": {
+    "dy": 0.1495997638098968,
+    "reference": "LEFT",
+    "gt_token": "4c28d332ffc14fcd9d312a7ac97bd085"
+  },
+  "scene-0684_53b9bb9e5ab64343b56af300324a9563_009": {
+    "dy": 0.28925077938408883,
+    "reference": "LEFT",
+    "gt_token": "77068286fa6748de9c3fbfeed8fe25a3"
+  },
+  "scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_000": {
+    "dy": 0.0018064589864930092,
+    "reference": "STOP",
+    "gt_token": "28f749423a554b5092059c3d7ad3eae3"
+  },
+  "scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_001": {
+    "dy": -0.043409483793228176,
+    "reference": "STOP",
+    "gt_token": "c86eff8c09e04dd09c30258befd31733"
+  },
+  "scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_002": {
+    "dy": -0.07202633797013291,
+    "reference": "STOP",
+    "gt_token": "f46fb03e38c349fa9f85ebfd925ccbca"
+  },
+  "scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_003": {
+    "dy": 0.09174216021832904,
+    "reference": "STOP",
+    "gt_token": "98c43946475241988a131fd67adac02c"
+  },
+  "scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_004": {
+    "dy": 0.00028016793988072664,
+    "reference": "STOP",
+    "gt_token": "4a6f1e82c4e345139d9a2e6df8e45738"
+  },
+  "scene-0761_ebede47feb2842d2986bf94a1f0c8c5d_005": {
+    "dy": 0.05019173517161146,
+    "reference": "STOP",
+    "gt_token": "587e82dfeb804fc0941311afdf208eaf"
+  },
+  "scene-0769_1a206371ee02489fbc1a25f1ac40846c_000": {
+    "dy": 0.03932738020728532,
+    "reference": "STOP",
+    "gt_token": "880c1499b7d145fdb8b19cd29961bd10"
+  },
+  "scene-0769_1a206371ee02489fbc1a25f1ac40846c_001": {
+    "dy": 0.052221739679830105,
+    "reference": "STOP",
+    "gt_token": "0dfaa27f47f144138679c2d9eeec18a5"
+  },
+  "scene-0769_1a206371ee02489fbc1a25f1ac40846c_002": {
+    "dy": -0.16934949718724646,
+    "reference": "RIGHT",
+    "gt_token": "140a32adfa8b424ab388fe10e01d2a12"
+  },
+  "scene-0769_1a206371ee02489fbc1a25f1ac40846c_003": {
+    "dy": 0.03184634841657852,
+    "reference": "STOP",
+    "gt_token": "d63d2a9eb1634d51ad09f190d98aa7f1"
+  },
+  "scene-0769_1a206371ee02489fbc1a25f1ac40846c_004": {
+    "dy": -0.09931661430662686,
+    "reference": "STOP",
+    "gt_token": "58fd0a48d7114dcdbf132c397b7dfa48"
+  },
+  "scene-0769_1a206371ee02489fbc1a25f1ac40846c_005": {
+    "dy": -0.01622171702210462,
+    "reference": "STOP",
+    "gt_token": "449f52b8f6dd435b9c3d50e4d945afa9"
+  },
+  "scene-0769_1a206371ee02489fbc1a25f1ac40846c_006": {
+    "dy": 0.07273570094316106,
+    "reference": "STOP",
+    "gt_token": "c8a098d7beab46fc938ee59be1276d03"
+  },
+  "scene-0769_1a206371ee02489fbc1a25f1ac40846c_007": {
+    "dy": 0.02084490475291112,
+    "reference": "STOP",
+    "gt_token": "df5fe70d14014af4bd7e224926c2280c"
+  },
+  "scene-0873_1299d5feac714ee796a0f7ab4976a037_000": {
+    "dy": -0.04645195789062084,
+    "reference": "STOP",
+    "gt_token": "7c7ff91bffba45efa0526a3b04e04f1c"
+  },
+  "scene-0873_1299d5feac714ee796a0f7ab4976a037_001": {
+    "dy": 0.003285138472842064,
+    "reference": "STOP",
+    "gt_token": "5f3ce29df03c499a853568c78d88030b"
+  },
+  "scene-0873_1299d5feac714ee796a0f7ab4976a037_002": {
+    "dy": 0.014481975679603992,
+    "reference": "STOP",
+    "gt_token": "1cfdfde3004c4061afaef9435edcf98e"
+  },
+  "scene-0873_1299d5feac714ee796a0f7ab4976a037_003": {
+    "dy": 0.06076220923295983,
+    "reference": "STOP",
+    "gt_token": "fe157afd8cd44b1f97855ff942ec6b91"
+  },
+  "scene-0873_1299d5feac714ee796a0f7ab4976a037_004": {
+    "dy": 0.16289530137380837,
+    "reference": "LEFT",
+    "gt_token": "9f9534fa941848b58a01fdd9e8fee329"
+  },
+  "scene-0873_1299d5feac714ee796a0f7ab4976a037_005": {
+    "dy": 0.1544292287637603,
+    "reference": "LEFT",
+    "gt_token": "ae1574066c6a435cba906b68be3dfa9b"
+  },
+  "scene-0873_1299d5feac714ee796a0f7ab4976a037_006": {
+    "dy": -0.14119944337452983,
+    "reference": "RIGHT",
+    "gt_token": "fd4e8668dd3d466b87496cfb46135928"
+  },
+  "scene-0873_1299d5feac714ee796a0f7ab4976a037_007": {
+    "dy": 0.05992154180200515,
+    "reference": "STOP",
+    "gt_token": "e2007a3a4ce34bb9a3be00b4bf9fbaf8"
+  },
+  "scene-0997_ceb305d93c7a46baba06a4b9e3cf163f_000": {
+    "dy": -0.07241051325213732,
+    "reference": "STOP",
+    "gt_token": "0e696f0c18d14c47aab6038d08cd5f64"
+  },
+  "scene-1007_1d2877d86a454cf18d2572319e0090df_000": {
+    "dy": -0.04518187472565138,
+    "reference": "STOP",
+    "gt_token": "c9755077718c495e95e1a1b64fc1ad9f"
+  },
+  "scene-1007_1d2877d86a454cf18d2572319e0090df_001": {
+    "dy": 0.16472404781035088,
+    "reference": "LEFT",
+    "gt_token": "3d734ee3373546ae95255cbd244ccebf"
+  },
+  "scene-1007_1d2877d86a454cf18d2572319e0090df_002": {
+    "dy": 0.2745416985349518,
+    "reference": "LEFT",
+    "gt_token": "c75ae9ef621748d6bc556fed8d105818"
+  },
+  "scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_000": {
+    "dy": 0.003963015396642844,
+    "reference": "STOP",
+    "gt_token": "4deafb0c5ea044f1acbfcb46a27205ff"
+  },
+  "scene-1019_c5b518e3ec054ef4b2209d2b56a9bf51_002": {
+    "dy": -0.011387181804941582,
+    "reference": "STOP",
+    "gt_token": "4ca947acfc7b4125aa7ff7bf33f06893"
+  }
+}

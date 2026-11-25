@@ -1,0 +1,15 @@
+{
+  "id": "scene-0769_1a206371ee02489fbc1a25f1ac40846c_002",
+  "source": "Codex CLI (ChatGPT sign-in)",
+  "decision": {
+    "lidar_evidence": "BEV 中框内及边缘的稀疏白点主要靠近右边界，左侧缺少可辨认的对应车体轮廓；白点不足以确定目标车的横向中心。",
+    "camera_evidence": [
+      {
+        "view": "CAM_BACK",
+        "observation": "橙框投影覆盖路边深色车辆附近，但画面模糊且多辆车重叠，无法可靠分辨目标车轮廓与框的横向偏差。"
+      }
+    ],
+    "summary": "LiDAR 点迹稀疏，后视相机中目标轮廓也无法可靠辨认，横向调整方向证据不足。",
+    "action": "ABSTAIN"
+  }
+}

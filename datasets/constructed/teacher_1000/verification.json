@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "source": {
+    "file": "data1_discrete_iou085_cone_xyz1cm_20261123/data1.jsonl",
+    "sha256": "1ae9e636b615e9d3c5f6badf0a2de76bcbb2f07ef149fed6bdab98bcb66b58dc",
+    "episodes": 111917,
+    "matched_steps": 1000
+  },
+  "samples": 1000,
+  "checked_jpegs": 7000,
+  "unique_scenes": 142,
+  "unique_frames": 1000,
+  "unique_episodes": 1000,
+  "counts_by_action": {
+    "STOP": 90,
+    "y": 130,
+    "yaw": 130,
+    "z": 130,
+    "length": 130,
+    "width": 130,
+    "x": 130,
+    "height": 130
+  },
+  "counts_by_category": {
+    "traffic_cone": 110,
+    "truck": 103,
+    "pedestrian": 159,
+    "motorcycle": 51,
+    "trailer": 70,
+    "car": 197,
+    "construction_vehicle": 61,
+    "bicycle": 56,
+    "barrier": 128,
+    "bus": 65
+  },
+  "counts_by_support": {
+    "partial": 198,
+    "insufficient": 781,
+    "supported": 21
+  },
+  "support_by_action": {
+    "STOP": {
+      "partial": 41,
+      "supported": 19,
+      "insufficient": 30
+    },
+    "y": {
+      "insufficient": 107,
+      "partial": 23
+    },
+    "yaw": {
+      "insufficient": 115,
+      "partial": 15
+    },
+    "z": {
+      "insufficient": 94,
+      "partial": 36
+    },
+    "length": {
+      "insufficient": 114,
+      "partial": 15,
+      "supported": 1
+    },
+    "width": {
+      "insufficient": 115,
+      "partial": 15
+    },
+    "x": {
+      "insufficient": 109,
+      "partial": 21
+    },
+    "height": {
+      "partial": 32,
+      "insufficient": 97,
+      "supported": 1
+    }
+  },
+  "projected_camera_count_distribution": {
+    "1": 736,
+    "2": 262,
+    "4": 1,
+    "3": 1
+  },
+  "camera_citations": 1226,
+  "model_batches": 250,
+  "labels_sha256": "24b228affa35f93e556e07af7a9efbe17dbe54c926367fd79839db55b057f427",
+  "notes": "Source actions and pre-action boxes, manifests, seven JPEGs, raw model responses and cited views were checked. Visual claims await human review."
+}

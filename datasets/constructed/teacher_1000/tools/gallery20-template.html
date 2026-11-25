@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>20 条 nuScenes 修框指令</title>
+<style>
+:root {color-scheme:light dark;--font-size-base:1rem;--foreground:CanvasText;--blue:#2998ff}
+body {max-width:68rem;margin:0 auto;padding:1.25rem;font:1rem/1.5 system-ui,sans-serif;color:CanvasText;background:Canvas}
+button,select,input {font:inherit}
+button,select {padding:.35rem .55rem}
+h2,h3,p {margin:0}
+.text-small {font-size:.875rem}
+</style>
+</head>
+<body>
+<div id="nuscenes-edit-review" lang="zh-CN">
+  <header>
+    <h2>20 条真实修框指令</h2>
+    <div class="action-nav">
+      <button class="btn" type="button" data-id="prev" aria-label="上一条指令">上一条</button>
+      <select class="form-select" data-id="caseList" aria-label="选择修框指令"></select>
+      <button class="btn" type="button" data-id="next" aria-label="下一条指令">下一条</button>
+    </div>
+    <p data-id="identity" class="text-small"></p>
+  </header>
+  <div class="pictures">
+    <section class="sensor">
+      <h3>LiDAR · 鸟瞰、侧视和端视</h3>
+      <div class="lidar-photo">
+        <img data-id="lidar" alt="当前帧的 LiDAR 回波，橙色实线是动作执行前的框">
+        <svg data-id="overlay" viewBox="0 0 960 525" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <clipPath id="nu20top"><rect x="6" y="57" width="470" height="453"></rect></clipPath>
+            <clipPath id="nu20side"><rect x="489" y="57" width="465" height="202"></rect></clipPath>
+            <clipPath id="nu20end"><rect x="489" y="297" width="465" height="213"></rect></clipPath>
+          </defs>
+          <g fill="none" stroke="currentColor" stroke-width="3.2" stroke-dasharray="6 3" stroke-linejoin="round">
+            <polygon clip-path="url(#nu20top)"></polygon><polygon clip-path="url(#nu20side)"></polygon><polygon clip-path="url(#nu20end)"></polygon><line clip-path="url(#nu20top)"></line>
+          </g>
+        </svg>
+      </div>
+      <label class="form-check"><input class="form-check-input" data-id="withOverlay" type="checkbox" checked>
+        <span class="form-check-label">叠加执行指令后的框（蓝色虚线）</span>
+      </label>
+      <p class="text-small">橙色实线为原框。鸟瞰图向右是参考 LiDAR 的 +x，向上是 +y。</p>
+      <p data-id="lidarEvidence"></p>
+    </section>
+    <section class="sensor">
+      <div class="camera-heading"><h3>执行前的相机图</h3><select class="form-select" data-id="cameraList" aria-label="切换六路相机"></select></div>
+      <div class="camera-photo"><img data-id="camera" alt=""></div>
+      <p data-id="cameraEvidence"></p>
+    </section>
+  </div>
+  <div class="summary" aria-live="polite">
+    <h3 data-id="support"></h3>
+    <p data-id="rationale"></p>
+    <p data-id="review" class="text-small"></p>
+  </div>
+</div>
+<style>
+  #nuscenes-edit-review{display:grid;gap:var(--font-size-base);color:var(--foreground)}
+  #nuscenes-edit-review header,#nuscenes-edit-review .sensor,#nuscenes-edit-review .summary{display:grid;align-content:start;gap:calc(var(--font-size-base)*.45);min-width:0}
+  #nuscenes-edit-review .action-nav{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:calc(var(--font-size-base)*.5);align-items:center}
+  #nuscenes-edit-review .pictures{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:var(--font-size-base)}
+  #nuscenes-edit-review .camera-heading{display:flex;flex-wrap:wrap;gap:calc(var(--font-size-base)*.4);align-items:center;justify-content:space-between;min-height:2em}
+  #nuscenes-edit-review .camera-heading select{max-width:100%;width:auto}
+  #nuscenes-edit-review .lidar-photo{position:relative;width:100%;aspect-ratio:960/525}
+  #nuscenes-edit-review .lidar-photo img,#nuscenes-edit-review .lidar-photo svg{width:100%;height:100%;display:block;position:absolute;inset:0}
+  #nuscenes-edit-review .lidar-photo svg{color:var(--blue);pointer-events:none}
+  #nuscenes-edit-review .camera-photo{width:100%;height:clamp(170px,25vw,270px);display:grid;place-items:center}
+  #nuscenes-edit-review .camera-photo img{width:100%;height:100%;max-height:100%;min-height:0;object-fit:contain}
+  #nuscenes-edit-review [hidden]{display:none!important}
+  @media(max-width:690px){#nuscenes-edit-review .pictures{grid-template-columns:1fr}#nuscenes-edit-review .camera-photo{height:245px}}
+  @media(max-width:440px){#nuscenes-edit-review .action-nav{grid-template-columns:1fr 1fr}#nuscenes-edit-review .action-nav select{grid-column:1/-1;grid-row:1}#nuscenes-edit-review .camera-photo{height:210px}}
+</style>
+<script type="application/json" id="nuscenes-edit-content">__GALLERY_DATA__</script>
+<script>
+(() => {
+  const root = document.getElementById('nuscenes-edit-review');
+  const ui = Object.fromEntries([...root.querySelectorAll('[data-id]')].map(n => [n.dataset.id,n]));
+  const data = JSON.parse(document.getElementById('nuscenes-edit-content').textContent);
+  const channels = ['CAM_FRONT_LEFT','CAM_FRONT','CAM_FRONT_RIGHT','CAM_BACK_LEFT','CAM_BACK','CAM_BACK_RIGHT'];
+  const short = ['左前','正前','右前','左后','正后','右后'];
+  const support = {supported:'支持',partial:'部分支持',insufficient:'证据不足',contradicted:'可见证据冲突'};
+  let index = 0;
+  function option(text,value) {
+    const o = document.createElement('option');o.textContent=text;o.value=value;return o;
+  }
+  data.forEach((r,i) => ui.caseList.append(option((i+1)+' / '+data.length+'　'+r.cmd+' · '+r.category+' · '+r.id,r.id)));
+  function setCamera(k) {
+    const r=data[index], first=r.cameraFacts[0]?.view || r.projected[0] || channels[0];
+    const view=channels.includes(k) ? k : first, j=channels.indexOf(view);
+    ui.cameraList.value=view;
+    ui.camera.src=r.images[j+1];
+    ui.camera.alt=r.id+' '+short[j]+'相机，'+(r.projected.includes(view)?'显示执行前框的投影':'当前框在画面外');
+    const fact=r.cameraFacts.find(c=>c.view===view);
+    ui.cameraEvidence.textContent=fact ? '教师观察 · '+fact.observation : (r.projected.includes(view)?'当前框投影在此视角，教师未引用此图。':'当前框在此视角没有投影。');
+  }
+  function setOverlay() {
+    ui.overlay.hidden=!ui.withOverlay.checked || data[index].stopped;
+    ui.overlay.style.display=ui.overlay.hidden ? 'none' : 'block';
+  }
+  function show(i, cam) {
+    index=i;
+    const r=data[i];
+    ui.caseList.value=r.id;
+    ui.prev.disabled=i===0;ui.next.disabled=i===data.length-1;
+    ui.identity.textContent=r.scene+'　·　'+r.id+'　·　轨迹动作 '+r.actionId+'　·　执行前状态 '+r.stateId;
+    ui.lidar.src=r.images[0];
+    ui.lidar.alt=r.id+' 的原始执行前 LiDAR 三视图；白点为附近回波，橙框为当前预测框';
+    [...ui.overlay.querySelectorAll('polygon')].forEach((p,j)=>p.setAttribute('points',r.geo.polygons[j].map(pt=>pt.join(',')).join(' ')));
+    const line=ui.overlay.querySelector('line'), h=r.geo.heading;
+    for(const [k,v] of Object.entries({x1:h[0][0],y1:h[0][1],x2:h[1][0],y2:h[1][1]})) line.setAttribute(k,v);
+    ui.withOverlay.disabled=r.stopped;
+    ui.withOverlay.nextElementSibling.textContent=r.stopped ? 'STOP · 框保持原位' : '叠加执行指令后的框（蓝色虚线）';
+    setOverlay();
+    ui.lidarEvidence.textContent='教师观察 · '+r.lidarFact;
+    ui.cameraList.replaceChildren(...channels.map((c,j)=>option(short[j]+(r.projected.includes(c)?' · 有框':''),c)));
+    setCamera(cam);
+    ui.support.textContent='教师对「'+r.cmd+'」的判断：'+support[r.support];
+    ui.rationale.textContent=r.reason;
+    ui.review.hidden=!r.review;ui.review.textContent=r.review ? '复核提示 · '+r.review : '';
+  }
+  ui.caseList.addEventListener('change',()=>show(ui.caseList.selectedIndex));
+  ui.prev.addEventListener('click',()=>{if(index>0) show(index-1)});
+  ui.next.addEventListener('click',()=>{if(index+1<data.length) show(index+1)});
+  ui.cameraList.addEventListener('change',()=>setCamera(ui.cameraList.value));
+  ui.withOverlay.addEventListener('change',setOverlay);
+  show(0);
+})();
+</script>
+</body>
+</html>

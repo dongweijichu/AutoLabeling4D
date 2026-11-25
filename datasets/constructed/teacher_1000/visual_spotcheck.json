@@ -1,0 +1,247 @@
+{
+  "inspection_date": "2026-11-24",
+  "reviewer": "Independent Codex visual review, not human ground truth",
+  "scope": "首 100 条内分层抽样 10 条，仅检查可见依据和其支持分级。此选样覆盖七种编辑轴和 STOP，不用于估计 1,000 条总体错误率。",
+  "selection": {
+    "source": "production raw_labels/v0001.json through v0100.json",
+    "selection_rule": "For x,y,z,length,width,height,yaw,STOP in order, pick the underrepresented support level then the smallest SHA-256 of val1000-spotcheck-v1/ + ID. Two more picks use the same support count/hash rule across remaining rows.",
+    "pool_support": {
+      "partial": 13,
+      "insufficient": 85,
+      "supported": 2
+    },
+    "pool_axes": {
+      "STOP": 7,
+      "y": 15,
+      "yaw": 11,
+      "z": 9,
+      "length": 14,
+      "width": 16,
+      "x": 13,
+      "height": 15
+    },
+    "picked": [
+      "v0012",
+      "v0034",
+      "v0019",
+      "v0010",
+      "v0084",
+      "v0021",
+      "v0028",
+      "v0100",
+      "v0037",
+      "v0086"
+    ]
+  },
+  "checked": {
+    "actions": 10,
+    "camera_images": 60,
+    "lidar_composites": 10,
+    "decoded_jpegs": 70,
+    "distinct_projected_views": 15,
+    "camera_citations": 14,
+    "all_citations_in_projected_views": true,
+    "teacher_outputs_modified": false
+  },
+  "review_counts": {
+    "consistent": 7,
+    "direction_ambiguous": 1,
+    "wording_needs_review": 1,
+    "support_needs_review": 1
+  },
+  "priority_ids": [
+    "v0037",
+    "v0021",
+    "v0034"
+  ],
+  "records": [
+    {
+      "id": "v0012",
+      "source_state": "s012",
+      "scene": "scene-0564",
+      "category": "truck",
+      "action": {
+        "axis": "x",
+        "type": "translate",
+        "value": 0.25
+      },
+      "teacher_support": "insufficient",
+      "reviewer_support": "insufficient",
+      "disposition": "consistent",
+      "camera_citations": [
+        "CAM_BACK"
+      ],
+      "visible_review": "后相机框横跨多车及路面，BEV 中是细而不完整的一列点，长高图有两排点。没有可归属的两侧轮廓来辨别参考 LiDAR +x 位移。",
+      "teacher_record_sha256": "e226bb6108f20adf1dfe647475edd45e9cbaa2ebc3e8c4c3c5c2b7b97b1c04f7"
+    },
+    {
+      "id": "v0034",
+      "source_state": "s000",
+      "scene": "scene-0018",
+      "category": "bicycle",
+      "action": {
+        "axis": "y",
+        "type": "translate",
+        "value": -0.25
+      },
+      "teacher_support": "partial",
+      "reviewer_support": "insufficient",
+      "disposition": "direction_ambiguous",
+      "camera_citations": [
+        "CAM_FRONT"
+      ],
+      "visible_review": "正前相机的单车与邻近车轮、立柱重叠。BEV 中确有一列回波穿过框下缘，但不能据此区分自行车与附近物体。教师的文字说无法确认 −y；若把 partial 用作方向监督，优先人工复查。",
+      "teacher_record_sha256": "449819afba030889e298f854ae5eaedf72e9ff3abc2fc82a1f0eead89d46eb7f"
+    },
+    {
+      "id": "v0019",
+      "source_state": "s001",
+      "scene": "scene-0107",
+      "category": "barrier",
+      "action": {
+        "axis": "z",
+        "type": "translate",
+        "value": 0.1
+      },
+      "teacher_support": "insufficient",
+      "reviewer_support": "insufficient",
+      "disposition": "consistent",
+      "camera_citations": [
+        "CAM_BACK"
+      ],
+      "visible_review": "后相机是模糊的低矮浅色结构；长高图中框内少量纵向点及框右外近框底的一排点清楚可见，不能据此辨别抬高整框。",
+      "teacher_record_sha256": "c197fa094b664bef13b65c604ab4b8168d901334cf69ed630b5a24fadac3fe33"
+    },
+    {
+      "id": "v0010",
+      "source_state": "s003",
+      "scene": "scene-0559",
+      "category": "construction_vehicle",
+      "action": {
+        "axis": "length",
+        "type": "resize",
+        "value": 0.2
+      },
+      "teacher_support": "partial",
+      "reviewer_support": "partial",
+      "disposition": "consistent",
+      "camera_citations": [
+        "CAM_FRONT_LEFT",
+        "CAM_BACK_LEFT"
+      ],
+      "visible_review": "前左相机框覆盖挖掘机车体与车轮，臂伸出框；后左视角仅见车体一部分。长高图可见框端外回波，归属不明，支持有限。",
+      "teacher_record_sha256": "6cc44d615a7bb30013f4bd6e0796610a62892cd4f90073641e39f04267219f64"
+    },
+    {
+      "id": "v0084",
+      "source_state": "s004",
+      "scene": "scene-0634",
+      "category": "barrier",
+      "action": {
+        "axis": "width",
+        "type": "resize",
+        "value": 0.5
+      },
+      "teacher_support": "insufficient",
+      "reviewer_support": "insufficient",
+      "disposition": "consistent",
+      "camera_citations": [
+        "CAM_BACK_RIGHT"
+      ],
+      "visible_review": "后右相机可见端面呈三角形的隔离墩。宽高图有混杂的近地回波，目标的两侧边不能同时锁定，加宽的依据不足。",
+      "teacher_record_sha256": "23d82a8d46cee29205b2e620e721b3d60099b35b0c109b5f58abb9161b47b225"
+    },
+    {
+      "id": "v0021",
+      "source_state": "s000",
+      "scene": "scene-1073",
+      "category": "motorcycle",
+      "action": {
+        "axis": "height",
+        "type": "resize",
+        "value": -0.5
+      },
+      "teacher_support": "partial",
+      "reviewer_support": "partial",
+      "disposition": "wording_needs_review",
+      "camera_citations": [
+        "CAM_BACK_RIGHT",
+        "CAM_BACK"
+      ],
+      "visible_review": "夜间两路后方相机中车辆重叠，目标仅局部可见。长高图中框内密集回波覆盖下、中、上部，最高回波与框顶之间确有空隙；“集中在框内下部至中部”夸大了偏低程度。收小框高仍只有有限支持。",
+      "teacher_record_sha256": "934607c5d139b03167e908e092900cb9e97301f2f2065506e900841700ffc7d8"
+    },
+    {
+      "id": "v0028",
+      "source_state": "s006",
+      "scene": "scene-0963",
+      "category": "construction_vehicle",
+      "action": {
+        "axis": "yaw",
+        "type": "rotate",
+        "value": 0.3490658503988659
+      },
+      "teacher_support": "insufficient",
+      "reviewer_support": "insufficient",
+      "disposition": "consistent",
+      "camera_citations": [
+        "CAM_BACK_RIGHT"
+      ],
+      "visible_review": "BEV 中少量散点与一串越过框边的回波，端视图右侧有框外回波；后右相机是树及围挡后的局部机械结构，无法确定正 yaw 方向。",
+      "teacher_record_sha256": "e6e0fa35faa36d071fd956ad9645034f14b2cf1715bb77ab05e35f753d5b528c"
+    },
+    {
+      "id": "v0100",
+      "source_state": "s005",
+      "scene": "scene-0635",
+      "category": "trailer",
+      "action": {
+        "type": "stop"
+      },
+      "teacher_support": "supported",
+      "reviewer_support": "supported",
+      "disposition": "consistent",
+      "camera_citations": [
+        "CAM_FRONT",
+        "CAM_FRONT_RIGHT"
+      ],
+      "visible_review": "正前和前右视角都仅见白色挂车的一部分，前右图的投影大致沿挂车侧面边缘；长高图一端的竖向回波、底部回波提供局部贴合证据。可对保持当前框给出可见支持，整车三维贴合仍不可由照片保证。",
+      "teacher_record_sha256": "01f32951721467c20f192ff9f23627d626cc064c92f924513b8219c8aa610216"
+    },
+    {
+      "id": "v0037",
+      "source_state": "s006",
+      "scene": "scene-0565",
+      "category": "pedestrian",
+      "action": {
+        "type": "stop"
+      },
+      "teacher_support": "supported",
+      "reviewer_support": "partial",
+      "disposition": "support_needs_review",
+      "camera_citations": [
+        "CAM_BACK_RIGHT"
+      ],
+      "visible_review": "后右相机可辨行人，脚部被裁切，头顶上方与投影顶边留有明显空隙；BEV 支撑主要集中在一侧，侧视又有邻近回波簇。目标身份、框大致位置可确认，视觉上对 STOP 的支持程度宜由人工复核。",
+      "teacher_record_sha256": "5d1500c14cb0a78d011138963eb8c7b5679a1733d0efec8f63be42b7ed6723e8"
+    },
+    {
+      "id": "v0086",
+      "source_state": "s003",
+      "scene": "scene-0913",
+      "category": "car",
+      "action": {
+        "type": "stop"
+      },
+      "teacher_support": "partial",
+      "reviewer_support": "partial",
+      "disposition": "consistent",
+      "camera_citations": [
+        "CAM_BACK_LEFT",
+        "CAM_BACK"
+      ],
+      "visible_review": "后左及正后可见隔离设施后方的白车，车身下部遮挡，另一路裁掉部分车身。39 个邻近回波均在当前框内，但主要覆盖一侧，适合标作部分支持。",
+      "teacher_record_sha256": "ba40401aba8518296bd83f88008467dc9e339cf1f58cd142aa7d72f5f331f0c0"
+    }
+  ]
+}
